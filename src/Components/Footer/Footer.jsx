@@ -69,7 +69,7 @@ function Footer() {
                             <div className='px-3 sm:px-6'>
                                 <h3 className="text-lg sm:text-xl font-semibold  mt-4 mb-2">Company</h3>
                                 <ul className='text-sm sm:text-lg font-thin'>
-                                    {/* <li className='cursor-pointer'> <a href="https://discord.gg/vf2jJxEVn7" target='_blank'>Community</a></li> */}
+                                    <li className='cursor-pointer'> <a href="https://discord.gg/vf2jJxEVn7" target='_blank'>Community</a></li>
                                     <li className='cursor-pointer' onClick={() => Navigate('/blogs')}>Blogs</li>
 
                                     <li className='cursor-pointer'> <a href="https://krut-ai.notion.site/Krut-AI-MVP-User-Manual-b2d5df9733cd411e99b4e92a68c7c154" target='_blank'>Tutorials</a></li>
@@ -145,14 +145,14 @@ function Footer() {
                     </div>
 
                     <div className="text-gray-400 mt-8 my-3 items-center justify-center flex">
-                            <a target='_blank' href='https://maps.app.goo.gl/XDJLmysK7m5XbcEy5' class="material-symbols-outlined"> distance </a>
+                            <a target='_blank' href='https://maps.app.goo.gl/XDJLmysK7m5XbcEy5' className="material-symbols-outlined"> distance </a>
                             <span className='px-1'> 2461, 14th A Cross Rd, 1st Sector, HSR Layout, Bengaluru, Karnataka 560102 </span>
                     </div>
 
                     <div className="text-center text-gray-400 my-3">
                         <p>
-                            <span className='cursor-pointer' onClick={() => Navigate('/privacy_policy')}>Privacy Policy</span> |
-                            <span className='cursor-pointer' onClick={() => Navigate('/terms_and_conditions')}> Terms & Conditions</span>
+                            <a className='cursor-pointer' href='/privacy_policy'>Privacy Policy</a> |
+                            <a className='cursor-pointer' href='/terms_and_conditions'> Terms & Conditions</a>
                         </p>
                         <p>@2024 Krut AI</p>
                     </div>

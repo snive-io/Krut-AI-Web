@@ -85,16 +85,16 @@ const cardData = [
     afterImg: "/images/autofill_after.webp",
     link: "/tools?tool=Autofill",
   },
-  // {
-  //   title: "Virtual Try-On",
-  //   description: "Try on glasses, outfits, and more in real-time online before buying with Krut AI",
-  //   gif: null,
-  //   thumbnail: Toolsbg,
-  //   video: null,
-  //   beforeImg: "/images/tryOn_before.webp",
-  //   afterImg: "/images/tryOn_after.webp",
-  //   link: "/tools?tool=Virtual%20Try-On",
-  // },
+  {
+    title: "Virtual Try-On",
+    description: "Try on glasses, outfits, and more in real-time online before buying with Krut AI",
+    gif: null,
+    thumbnail: Toolsbg,
+    video: null,
+    beforeImg: "/images/tryOn_before.webp",
+    afterImg: "/images/tryOn_after.webp",
+    link: "/tools?tool=Virtual%20Try-On",
+  },
 ];
 
 

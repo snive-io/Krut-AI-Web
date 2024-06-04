@@ -1,11 +1,19 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { pricingTable } from '../../assets/pricingTable';
 import { useNavigate } from 'react-router-dom';
+import { currencyTable } from '../../assets/currencyDetails';
 
-function PricingCards({ isMonthly, isExpanded, isHomePage = false }) {
+function PricingCards({ isMonthly, isExpanded, isHomePage = false, currency = "INR" }) {
     const [plusMultiplier, setPlusMultiplier] = useState(1);  //multiplier for no of users _ plus
     const [proMultiplier, setProMultiplier] = useState(1);  //multiplier for no of users _ pro
+    const [currencyData, setCurrencyData] = useState({ country: "India", currency: "INR", symbol: "₹", flag: "🇮🇳", exchangeRate: 90.12 });
     const Navigate = useNavigate();
+
+    useEffect(() => {
+        const currencyDetails = currencyTable.filter((item) => item.currency === currency);
+        setCurrencyData(currencyDetails[0]);
+    }, [currency])
+
 
     return (
         <>
@@ -32,7 +40,9 @@ function PricingCards({ isMonthly, isExpanded, isHomePage = false }) {
                                     {list?.title}{list?.title === "Free" ? <span className='text-sm sm:text-lg font-normal'> (100 credits)</span> : ""}
                                 </h1>
                                 <p className="text-base sm:text-xl font-light mb-4 text-wrap">{list?.description}</p>
-                                <h1 className="font-semibold text-2xl sm:text-3xl lg:4-xl mb-4">₹{(list?.title === "Plus" ? plusMultiplier : proMultiplier) * (isMonthly ? list?.priceMonthly : list?.priceYearly)}/month*</h1>
+                                <h1 className="font-semibold text-2xl sm:text-3xl lg:4-xl mb-4">
+                                    {currencyData.symbol} {(list?.title === "Plus" ? plusMultiplier : proMultiplier) * (isMonthly ? Math.ceil(list?.priceMonthly * currencyData.exchangeRate) :  Math.ceil(list?.priceYearly * currencyData.exchangeRate))}/month*
+                                </h1>
                                 <br />
 
                                 {!isHomePage && <div className={`${list?.title === "Free" ? "hidden xl:block" : ""} h-16 mb-3`}>
@@ -52,7 +62,7 @@ function PricingCards({ isMonthly, isExpanded, isHomePage = false }) {
                                                             setProMultiplier(value - 1)
                                                         }
                                                     }}>
-                                                    <span class="material-symbols-outlined text-3xl">
+                                                    <span className="material-symbols-outlined text-3xl">
                                                         person_remove
                                                     </span>
                                                 </button>
@@ -70,7 +80,7 @@ function PricingCards({ isMonthly, isExpanded, isHomePage = false }) {
                                                             setProMultiplier(value + 1)
                                                         }
                                                     }}>
-                                                    <span class="material-symbols-outlined text-3xl">
+                                                    <span className="material-symbols-outlined text-3xl">
                                                         group_add
                                                     </span>
                                                 </button>
@@ -104,12 +114,12 @@ function PricingCards({ isMonthly, isExpanded, isHomePage = false }) {
                             </div>
 
 
-                            {isExpanded && <div className=" bg-white  text-gray-500 text-base sm:text-lg leading-8 sm:leading-10 rounded-t-3xl rounded-b-3xl px-5 py-5 tracking-tight">
-                                <p> &#x2713;  <span className='ms-3'>{list?.storage} GB Storage</span></p>
-                                <p> &#x2713;  <span className='ms-3'>{list?.iStock} Photos by iStock</span></p>
-                                <p>&#x2713;  <span className='ms-3'>Unlimited Projects</span></p>
-                                <p>&#x2713;  <span className='ms-3'>Watermark {list?.watermark}</span></p>
-                                <p>&#x2713;  <span className='ms-3'>Unlock {list?.backgrounds} Backgrounds</span></p>
+                            {isExpanded && <div className=" text-white border-krutNeon border border-x-0 border-b-0 text-base sm:text-lg leading-8 sm:leading-10 rounded-t-3xl rounded-b-3xl px-5 py-5 tracking-tight">
+                                <p> &#x2713;  <span className='ms-3 font-semibold'>{list?.storage} GB Storage</span></p>
+                                <p> &#x2713;  <span className='ms-3 font-semibold'>{list?.iStock} Photos by iStock</span></p>
+                                <p>&#x2713;  <span className='ms-3 font-semibold'>Unlimited Projects</span></p>
+                                <p>&#x2713;  <span className='ms-3 font-semibold'>Watermark {list?.watermark}</span></p>
+                                <p>&#x2713;  <span className='ms-3 font-semibold'>Unlock {list?.backgrounds} Backgrounds</span></p>
 
                             </div>}
                         </div>
