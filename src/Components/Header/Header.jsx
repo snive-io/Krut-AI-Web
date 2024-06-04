@@ -122,9 +122,9 @@ const Header = () => {
                     </div>
                   )}
                 </div>
-                {/* <Link to="https://discord.gg/vf2jJxEVn7" className="text-white text-2xl font-semibold" >
+                <Link to="https://discord.gg/vf2jJxEVn7" className="text-white text-2xl font-semibold" >
                   Community
-                </Link> */}
+                </Link>
                 <Link to="/pricing" className="text-white text-2xl font-semibold" >
                   Pricing
                 </Link>
@@ -198,9 +198,9 @@ const Header = () => {
               </div>}
             </div>
 
-            {/* <div className="text-white  md:text-sm  lg:text-xl 2xl:text-2xl" >
+            <div className="text-white  md:text-sm  lg:text-xl 2xl:text-2xl" >
               <a href="https://discord.gg/vf2jJxEVn7" target='_blank'>Community</a>
-            </div> */}
+            </div>
 
             <Link to="/pricing" className="text-white  md:text-sm lg:text-xl 2xl:text-2xl" >
               <span>Pricing</span>

@@ -11,6 +11,7 @@ import Tools from "./Pages/tools/Tools";
 import BookADemo from "./Pages/BookADemo/BookADemo";
 import TermsAndConditions from "./Pages/TermsAndConditions/TermsAndConditions";
 import PrivacyPolicy from "./Pages/PrivacyPolicy/PrivacyPolicy";
+import { Login } from "./Pages/Login/LoginPage";
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
         <Route path="/addblog" element={<AddBlog />} />
         <Route path="/mobiletools" element={<ToolsMobile />} />
         <Route path="/tools" element={<Tools/>}/>
+        <Route path="/login" element={<Login/>}/>
         <Route path="*" element={<Home/>}/>
       </Routes>
     </>

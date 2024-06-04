@@ -12,6 +12,8 @@ export default {
       },
       colors: {
         krutNeon: "#00D4EF",
+        KrutTxt: "#3292BB",
+        highLightBg: "#EFF6FF",
       },
     }
   },
