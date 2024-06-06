@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { pricingTable } from '../../assets/pricingTable';
 import { useNavigate } from 'react-router-dom';
 import { currencyTable } from '../../assets/currencyDetails';
+import { handlePayment } from '../../utils/PaymentIntegration';
 
 function PricingCards({ isMonthly, isExpanded, isHomePage = false, currency = "INR" }) {
     const [plusMultiplier, setPlusMultiplier] = useState(1);  //multiplier for no of users _ plus
@@ -13,7 +14,6 @@ function PricingCards({ isMonthly, isExpanded, isHomePage = false, currency = "I
         const currencyDetails = currencyTable.filter((item) => item.currency === currency);
         setCurrencyData(currencyDetails[0]);
     }, [currency])
-
 
     return (
         <>
@@ -41,7 +41,7 @@ function PricingCards({ isMonthly, isExpanded, isHomePage = false, currency = "I
                                 </h1>
                                 <p className="text-base sm:text-xl font-light mb-4 text-wrap">{list?.description}</p>
                                 <h1 className="font-semibold text-2xl sm:text-3xl lg:4-xl mb-4">
-                                    {currencyData.symbol} {(list?.title === "Plus" ? plusMultiplier : proMultiplier) * (isMonthly ? Math.ceil(list?.priceMonthly * currencyData.exchangeRate) :  Math.ceil(list?.priceYearly * currencyData.exchangeRate))}/month*
+                                    {currencyData.symbol} {(list?.title === "Plus" ? plusMultiplier : proMultiplier) * (isMonthly ? Math.ceil(list?.priceMonthly * currencyData.exchangeRate) : Math.ceil(list?.priceYearly * currencyData.exchangeRate))}/month*
                                 </h1>
                                 <br />
 
@@ -101,7 +101,18 @@ function PricingCards({ isMonthly, isExpanded, isHomePage = false, currency = "I
                                 <div className="flex items-center justify-center">
 
                                     <button className="zoomEffect text-black text-xl sm:text-2xl xl:text-3xl justify-center px-6 py-3 w-[75%] font-bold rounded-[1.5rem] mt-7 cursor-pointer"
-                                        onClick={() => Navigate('/contact')}
+                                        onClick={() => {
+                                            if (list?.title !== "Free") {
+                                                handlePayment({
+                                                    userName: "Harsh",
+                                                    amount: ((list?.title === "Plus" ? plusMultiplier : proMultiplier) * (isMonthly ? Math.ceil(list?.priceMonthly * currencyData.exchangeRate) : Math.ceil(list?.priceYearly * currencyData.exchangeRate))* 1.18).toFixed(2),
+                                                    plan: list?.title,
+                                                    currency: currencyData.currency,
+                                                })
+                                            } else {
+                                                Navigate('/login')
+                                            }
+                                        }}
                                         style={{
                                             backgroundImage: list?.title === "Pro" ?
                                                 'linear-gradient(180deg, #FFFFFF -225.69%, #01DDE9 35.95%, #37003E 141.48%)' :

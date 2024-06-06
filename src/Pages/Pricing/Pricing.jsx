@@ -17,22 +17,20 @@ function Pricing() {
     const [currency, setCurrency] = useState("INR");  //Set Default currency Indian
 
     return (
-        <>
-            <div className='min-h-screen'>
-                <Header />
-                <HeroPricing isMonthly={isMonthly} setIsMonthly={setIsMonthly} />
-                <CurrencySelector currency={currency} setCurrency={setCurrency} />
-                <PricingCards isMonthly={isMonthly} isExpanded={true} currency={currency} />
-                <TalkToUsComponent />
-                <div id='CompareChart' className='scroll-mt-10'></div>
-                <PricingCards isMonthly={isMonthly} isExpanded={false} currency={currency} />
-                <PriceComparisonTable />
-                <Faq {...faqData} />
-                <MobileAppAd />
-                <GetStarted />
-                <Footer />
-            </div>
-        </>
+        <div className='min-h-screen'>
+            <Header />
+            <HeroPricing isMonthly={isMonthly} setIsMonthly={setIsMonthly} />
+            <CurrencySelector currency={currency} setCurrency={setCurrency} />
+            <PricingCards isMonthly={isMonthly} isExpanded={true} currency={currency} />
+            <TalkToUsComponent />
+            <div id='CompareChart' className='scroll-mt-10'></div>
+            <PricingCards isMonthly={isMonthly} isExpanded={false} currency={currency} />
+            <PriceComparisonTable />
+            <Faq {...faqData} />
+            <MobileAppAd />
+            <GetStarted />
+            <Footer />
+        </div>
     )
 }
 
