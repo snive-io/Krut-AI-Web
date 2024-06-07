@@ -3,6 +3,7 @@ import { pricingTable } from '../../assets/pricingTable';
 import { useNavigate } from 'react-router-dom';
 import { currencyTable } from '../../assets/currencyDetails';
 import { handlePayment } from '../../utils/PaymentIntegration';
+import { APP_LINK } from '../../utils/links';
 
 function PricingCards({ isMonthly, isExpanded, isHomePage = false, currency = "INR" }) {
     const [plusMultiplier, setPlusMultiplier] = useState(1);  //multiplier for no of users _ plus
@@ -103,14 +104,9 @@ function PricingCards({ isMonthly, isExpanded, isHomePage = false, currency = "I
                                     <button className="zoomEffect text-black text-xl sm:text-2xl xl:text-3xl justify-center px-6 py-3 w-[75%] font-bold rounded-[1.5rem] mt-7 cursor-pointer"
                                         onClick={() => {
                                             if (list?.title !== "Free") {
-                                                handlePayment({
-                                                    userName: "Harsh",
-                                                    amount: ((list?.title === "Plus" ? plusMultiplier : proMultiplier) * (isMonthly ? Math.ceil(list?.priceMonthly * currencyData.exchangeRate) : Math.ceil(list?.priceYearly * currencyData.exchangeRate))* 1.18).toFixed(2),
-                                                    plan: list?.title,
-                                                    currency: currencyData.currency,
-                                                })
+                                                window.location.href = APP_LINK + "checkout?plan=" + list?.title
                                             } else {
-                                                Navigate('/login')
+                                                window.location.href = APP_LINK + "signup"
                                             }
                                         }}
                                         style={{
