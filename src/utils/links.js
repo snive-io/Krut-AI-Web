@@ -16,14 +16,3 @@ export const supportEndPoint = {
         method: 'POST',
     },
 };
-
-export const paymentEndPoint = {
-    createOrder: {
-        url: 'api/v1/web/createOrder',
-        method: 'POST',
-    },
-    verifyPayment: {
-        url: 'api/v1/web/validatePayment',
-        method: 'POST',
-    },
-};

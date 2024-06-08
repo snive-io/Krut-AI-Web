@@ -1,5 +1,5 @@
 import axios from "axios"
-import { API_END_POINT, paymentEndPoint, supportEndPoint } from "./links";
+import { API_END_POINT, supportEndPoint } from "./links";
 
 // ============ Subscribe API ================
 export const subscribeAPI = async (data) => {
@@ -48,39 +48,6 @@ export const bookDemoAPI = async (data) => {
             return response.data;
         } else {
             throw new Error("Unable to get response");
-        }
-    } catch (error) {
-        console.log(error.message);
-        throw Error(error.message);
-    }
-};
-
-// ============ Create Order API ================
-export const createOrderAPI = async (data) => {
-    try {
-        const url = API_END_POINT + paymentEndPoint?.createOrder?.url;
-        const response = await axios.post(url, data);
-        if (response?.data?.status) {
-            return response.data;
-        } else {
-            throw new Error("Unable to initiate payment");
-        }
-    } catch (error) {
-        console.log(error.message);
-        throw Error(error.message);
-    }
-};
-
-// ============ Verify Payment API ================
-
-export const verifyPaymentAPI = async (data) => {
-    try {
-        const url = API_END_POINT + paymentEndPoint?.verifyPayment?.url;
-        const response = await axios.post(url, data);
-        if (response?.data) {
-            return response.data;
-        } else {
-            throw new Error("Unable to verify payment");
         }
     } catch (error) {
         console.log(error.message);
