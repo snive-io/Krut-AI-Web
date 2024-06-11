@@ -103,7 +103,8 @@ function PricingCards({ isMonthly, isExpanded, isHomePage = false, currency = "I
                                     <button className="zoomEffect text-black text-xl sm:text-2xl xl:text-3xl justify-center px-6 py-3 w-[75%] font-bold rounded-[1.5rem] mt-7 cursor-pointer"
                                         onClick={() => {
                                             if (list?.title !== "Free") {
-                                                window.location.href = APP_LINK + "checkout?plan=" + list?.title
+                                                //Plus & Pro Payment redirection Link to App Login
+                                                window.location.href = APP_LINK + `login?plan=${list?.title}&users=${list?.title === "Plus" ? plusMultiplier : proMultiplier}&currency=${currencyData?.currency}&period=${isMonthly? "monthly" : "yearly"}`
                                             } else {
                                                 window.location.href = APP_LINK + "signup"
                                             }
