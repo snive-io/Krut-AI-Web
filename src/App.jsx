@@ -12,6 +12,7 @@ import Tools from "./Pages/tools/Tools";
 import BookADemo from "./Pages/BookADemo/BookADemo";
 import TermsAndConditions from "./Pages/TermsAndConditions/TermsAndConditions";
 import PrivacyPolicy from "./Pages/PrivacyPolicy/PrivacyPolicy";
+import Help from "./Pages/Help/Help";
 
 function App() {
 
@@ -21,7 +22,7 @@ function App() {
         fallback={ //loading spinner
           <div className="w-[100vw] h-[100vh] flex justify-center items-center">
             <div className="w-36 text-white">
-              Loading ...
+              Loading... Please wait
             </div>
           </div>
 
@@ -38,6 +39,7 @@ function App() {
           <Route path="/addblog" element={<AddBlog />} />
           <Route path="/mobiletools" element={<ToolsMobile />} />
           <Route path="/tools" element={<Tools />} />
+          <Route path="/help" element={<Help />} />
           <Route path="*" element={<Home />} />
         </Routes>
       </Suspense>

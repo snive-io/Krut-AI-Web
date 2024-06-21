@@ -14,7 +14,7 @@ import CurrencySelector from '../../Components/Pricing/CurrencySelector'
 
 function Pricing() {
     const [isMonthly, setIsMonthly] = useState(false);  //boolean for monthly or yearly
-    const [currency, setCurrency] = useState("INR");  //Set Default currency Indian
+    const [currency, setCurrency] = useState("USD");  //Set Default currency Indian
 
     return (
         <div className='min-h-screen'>

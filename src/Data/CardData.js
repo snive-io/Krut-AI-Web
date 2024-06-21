@@ -12,7 +12,8 @@ import MagicReplacetn from "../assets/Images/replace00.jpg"
 import Outpainttn from "../assets/Images/outpaintt0.jpg"
 import ModelStudiotn from "../assets/Images/model studio new0.jpg"
 import ProductStudiotn from "../assets/Images/new product studio00.jpg"
-import Toolsbg from "../assets/Images/luxa.org-opacity-changed-toolsbgg.jpeg"
+// import Toolsbg from "../assets/Images/luxa.org-opacity-changed-toolsbgg.jpeg"
+import virtualTryOn from "/images/tryOn_thumbnail.webp"
 
 const cardData = [
   {
@@ -89,7 +90,7 @@ const cardData = [
     title: "Virtual Try-On",
     description: "Try on glasses, outfits, and more in real-time online before buying with Krut AI",
     gif: null,
-    thumbnail: Toolsbg,
+    thumbnail: virtualTryOn,
     video: null,
     beforeImg: "/images/tryOn_before.webp",
     afterImg: "/images/tryOn_after.webp",

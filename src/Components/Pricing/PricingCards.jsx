@@ -123,7 +123,7 @@ function PricingCards({ isMonthly, isExpanded, isHomePage = false, currency = "I
 
                             {isExpanded && <div className=" text-white border-krutNeon border border-x-0 border-b-0 text-base sm:text-lg leading-8 sm:leading-10 rounded-t-[1.35rem] rounded-b-[1.35rem] px-5 py-5 tracking-tight">
                                 <p> &#x2713;  <span className='ms-3 font-semibold'>{list?.storage} GB Storage</span></p>
-                                <p> &#x2713;  <span className='ms-3 font-semibold'>{list?.iStock} Photos by iStock</span></p>
+                                <p> &#x2713;  <span className='ms-3 font-semibold'>{list?.unsplash} Photos by unsplash</span></p>
                                 <p>&#x2713;  <span className='ms-3 font-semibold'>Unlimited Projects</span></p>
                                 <p>&#x2713;  <span className='ms-3 font-semibold'>Watermark {list?.watermark}</span></p>
                                 <p>&#x2713;  <span className='ms-3 font-semibold'>Unlock {list?.backgrounds} Backgrounds</span></p>
