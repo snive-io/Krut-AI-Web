@@ -128,14 +128,19 @@ const Header = () => {
                 <Link to="/pricing" className="text-white text-2xl font-semibold" >
                   Pricing
                 </Link>
-                <>
+
+                <Link to="/bookademo" className="text-white text-2xl font-semibold" >
+                  Book A Demo
+                </Link>
+
+                {/* <>
                   <div onClick={() => window.location.href = APP_LINK + "login"} className="text-white text-2xl font-semibold" >
                     Login
                   </div>
                   <div onClick={() => window.location.href = APP_LINK + "signup"} className="text-white text-2xl font-semibold" >
                     Signup
                   </div>
-                </>
+                </> */}
               </div>
             </div>
           )}
@@ -212,6 +217,7 @@ const Header = () => {
             </Link>
           </div>
 
+          {/* <div className="hidden md:block">
             <div className="flex text-white items-center">
               <div className="hover:text-krutNeon  md:text-sm lg:text-lg 2xl:text-xl cursor-pointer" onClick={() => window.location.href = APP_LINK + "login"}>
                 <span>Login </span>
@@ -221,6 +227,16 @@ const Header = () => {
                 <span> Signup</span>
               </div>
             </div>
+          </div> */}
+
+          <Link to="/bookademo"
+            className="hidden md:block  rounded-full text-black font-bold md:text-lg lg:text-xl 2xl:text-2xl md:px-5 md:py-1 lg:px-7 lg:py-2 2xl:px-9 2xl:py-4"
+            style={{
+              background:
+                "linear-gradient(180deg, #FFFFFF -225.69%, #01DDE9 35.95%, #37003E 141.48%)",
+            }}>
+            Book a Demo
+          </Link>
 
         </div>
       </div>

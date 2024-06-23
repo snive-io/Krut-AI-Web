@@ -19,12 +19,18 @@ const Home = () => {
   return (
     <>
       {/* First Section */}
-      <div
-        className="conatiner-fluid bg-cover bg-no-repeat bg-center min-h-[560px] lg:min-h-[600px] 2xl:min-h-screen  "
-        style={{ backgroundImage: `url("/images/Green_shade.png")` }}
-      >
+      <div className="conatiner-fluid bg-cover bg-no-repeat bg-center min-h-[560px] lg:min-h-[600px] 2xl:min-h-screen  "
+        style={{ backgroundImage: `url("/images/Green_shade.png")` }}>
+
         <div className="bg-black bg-opacity-10 min-h-[560px] lg:min-h-[600px] 2xl:min-h-screen">
           <Header />
+
+          <div className="flex justify-center items-center text-white">
+            <div className="max-w-[330px] lg:max-w-[430px]">
+            <img src="/images/productHunt.webp" alt="product hunt banner"  className="w-full"/>
+            </div>
+          </div>
+
           <div className="text-center py-10 2xl:py-24 xl:py-16 flex flex-col justify-center items-center">
             <div className="leading-tight ">
               <h1 className="text-white sm:text-5xl md:text-6xl text-4xl lg:text-7xl  xl:text-8xl 2xl:text-[9rem] font-bold">
@@ -62,7 +68,7 @@ const Home = () => {
             <Link to='/bookademo'>
               <div className="sec-one-button zoomEffect text-black rounded-full px-8 py-1 mt-16 text-lg  lg:px-20 lg:py-2 lg:mt-8 2xl:mt-14 2xl:py-4 2xl:px-28 lg:text-2xl 2xl:text-4xl font-bold"
                 style={{ background: "linear-gradient(180deg, #FFFFFF -225.69%, #01DDE9 35.95%, #37003E 141.48%)" }} >
-                Try Krut AI
+                Get Early Access
               </div>
             </Link>
 
