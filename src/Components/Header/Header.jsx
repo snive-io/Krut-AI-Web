@@ -161,7 +161,7 @@ const Header = () => {
                 Support
               </div>
 
-              {isSupportOpen && <div ref={supportMenu} className="border border-cyan-100 absolute top-full  lg:ml-[-60px] w-[16rem] bg-black shadow-lg rounded-lg mt-2"
+              {isSupportOpen && <div ref={supportMenu} className="border border-cyan-100 absolute top-full lg:ml-[-60px] w-[16rem] bg-black shadow-lg rounded-lg mt-2 z-50"
                 onMouseLeave={toggleSupportMenu} >
                 <Link to="/blogs" className="block px-4 py-2 text-white ">
                   <div className="flex  hover:bg-white hover:text-black hover:rounded-xl">

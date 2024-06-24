@@ -22,7 +22,8 @@ function PricingCards({ isMonthly, isExpanded, isHomePage = false, currency = "U
                 <div className="flex flex-col justify-center items-center xl:flex-row xl:justify-evenly overflow-hidden">
                     {pricingTable && pricingTable.map((list, index) =>
 
-                        <div key={index} className="border-2 border-krutNeon border-opacity-40 text-white rounded-3xl h-full mx-8 sm:mx-4 xl:mx-8 max-w-[468px] mt-14 sm:my-5" >
+                        <div key={index} className="border-2 border-krutNeon border-opacity-40 text-white rounded-3xl h-full mx-8 sm:mx-4 xl:mx-8 max-w-[468px] mt-14 sm:my-5" 
+                        data-aos="fade-left" data-aos-delay={300 + (index * 300)} data-aos-anchor="#trigger-right" data-aos-anchor-placement="top-center">
 
                             {/* Best value Ribbon */}
                             <div className={`flex w-full justify-end relative mt-6 ms-9 ${list?.title !== "Pro" ? "opacity-0" : ""}`}>

@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import { lazy, Suspense } from "react";
+import { lazy, Suspense, useEffect } from "react";
 import "./App.css";
 import Home from "./Pages/Home/Home";
 import Pricing from "./Pages/Pricing/Pricing";
@@ -13,10 +13,23 @@ import BookADemo from "./Pages/BookADemo/BookADemo";
 import TermsAndConditions from "./Pages/TermsAndConditions/TermsAndConditions";
 import PrivacyPolicy from "./Pages/PrivacyPolicy/PrivacyPolicy";
 import Help from "./Pages/Help/Help";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import EarlyAccess from "./Pages/BookADemo/EarlyAccess";
 
 function App() {
 
+  useEffect(() => {
+    AOS.init({
+      disable: window.innerWidth < 1024,
+      duration: 700,
+      easing: "ease-out-cubic",
+      once: true
+    });
+  }, [])
+
   return (
+
     <>
       <Suspense
         fallback={ //loading spinner
@@ -40,6 +53,7 @@ function App() {
           <Route path="/mobiletools" element={<ToolsMobile />} />
           <Route path="/tools" element={<Tools />} />
           <Route path="/help" element={<Help />} />
+          <Route path="/early_access" element={<EarlyAccess />} />
           <Route path="*" element={<Home />} />
         </Routes>
       </Suspense>

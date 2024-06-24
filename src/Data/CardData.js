@@ -5,7 +5,7 @@ import Upscaler from '../assets/Gif/Scaler.mp4'
 import MagicRemove from '../assets/Gif/Magic removal.mp4'
 import MagicReplace from '../assets/Gif/Magic Replace.mp4'
 import Outpaint from '../assets/Gif/Outpaint.mp4'
-import BrRemovetn from '../assets/Images/bg remove00.jpg'
+import BrRemovetn from '../assets/Images/bg_remove.webp'
 import Upscalertn from "../assets/Images/upscale1.jpg"
 import MagivRemovetn from "../assets/Images/remove anything0.jpg"
 import MagicReplacetn from "../assets/Images/replace00.jpg"

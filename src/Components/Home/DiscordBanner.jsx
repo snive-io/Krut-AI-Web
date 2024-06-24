@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import dicordVector from "../../assets/Images/discord_vector.png";
+import dicordVector from "../../assets/Images/discord_vector.webp";
 
 function DiscordBanner() {
   return (
