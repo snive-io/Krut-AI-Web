@@ -7,9 +7,9 @@ import { MdCastForEducation } from "react-icons/md";
 import { MdOutgoingMail } from "react-icons/md";
 import { CgFileDocument } from "react-icons/cg";
 import { IoChevronDownOutline, IoChevronUpOutline } from "react-icons/io5";
-import { Toaster } from 'react-hot-toast';
+import toast, { Toaster } from 'react-hot-toast';
 import { useLocation } from "react-router-dom";
-
+import { APP_LINK } from "../../utils/links";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -128,9 +128,19 @@ const Header = () => {
                 <Link to="/pricing" className="text-white text-2xl font-semibold" >
                   Pricing
                 </Link>
+
                 <Link to="/bookademo" className="text-white text-2xl font-semibold" >
                   Book A Demo
                 </Link>
+
+                {/* <>
+                  <div onClick={() => window.location.href = APP_LINK + "login"} className="text-white text-2xl font-semibold" >
+                    Login
+                  </div>
+                  <div onClick={() => window.location.href = APP_LINK + "signup"} className="text-white text-2xl font-semibold" >
+                    Signup
+                  </div>
+                </> */}
               </div>
             </div>
           )}
@@ -151,7 +161,7 @@ const Header = () => {
                 Support
               </div>
 
-              {isSupportOpen && <div ref={supportMenu} className="border border-cyan-100 absolute top-full  lg:ml-[-60px] w-[16rem] bg-black shadow-lg rounded-lg mt-2"
+              {isSupportOpen && <div ref={supportMenu} className="border border-cyan-100 absolute top-full lg:ml-[-60px] w-[16rem] bg-black shadow-lg rounded-lg mt-2 z-50"
                 onMouseLeave={toggleSupportMenu} >
                 <Link to="/blogs" className="block px-4 py-2 text-white ">
                   <div className="flex  hover:bg-white hover:text-black hover:rounded-xl">
@@ -207,6 +217,18 @@ const Header = () => {
             </Link>
           </div>
 
+          {/* <div className="hidden md:block">
+            <div className="flex text-white items-center">
+              <div className="hover:text-krutNeon  md:text-sm lg:text-lg 2xl:text-xl cursor-pointer" onClick={() => window.location.href = APP_LINK + "login"}>
+                <span>Login </span>
+              </div>
+              <p className="mx-1"> | </p>
+              <div className="hover:text-krutNeon  md:text-sm lg:text-lg 2xl:text-xl cursor-pointer" onClick={() => window.location.href = APP_LINK + "signup"}>
+                <span> Signup</span>
+              </div>
+            </div>
+          </div> */}
+
           <Link to="/bookademo"
             className="hidden md:block  rounded-full text-black font-bold md:text-lg lg:text-xl 2xl:text-2xl md:px-5 md:py-1 lg:px-7 lg:py-2 2xl:px-9 2xl:py-4"
             style={{
@@ -215,6 +237,7 @@ const Header = () => {
             }}>
             Book a Demo
           </Link>
+
         </div>
       </div>
       <div><Toaster /></div>

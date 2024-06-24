@@ -2,8 +2,9 @@ import React, { useEffect, useState } from 'react';
 import { pricingTable } from '../../assets/pricingTable';
 import { useNavigate } from 'react-router-dom';
 import { currencyTable } from '../../assets/currencyDetails';
+import { APP_LINK } from '../../utils/links';
 
-function PricingCards({ isMonthly, isExpanded, isHomePage = false, currency = "INR" }) {
+function PricingCards({ isMonthly, isExpanded, isHomePage = false, currency = "USD" }) {
     const [plusMultiplier, setPlusMultiplier] = useState(1);  //multiplier for no of users _ plus
     const [proMultiplier, setProMultiplier] = useState(1);  //multiplier for no of users _ pro
     const [currencyData, setCurrencyData] = useState({ country: "India", currency: "INR", symbol: "₹", flag: "🇮🇳", exchangeRate: 90.12 });
@@ -14,7 +15,6 @@ function PricingCards({ isMonthly, isExpanded, isHomePage = false, currency = "I
         setCurrencyData(currencyDetails[0]);
     }, [currency])
 
-
     return (
         <>
             {/* ======== Pricing Cards ========= */}
@@ -22,7 +22,8 @@ function PricingCards({ isMonthly, isExpanded, isHomePage = false, currency = "I
                 <div className="flex flex-col justify-center items-center xl:flex-row xl:justify-evenly overflow-hidden">
                     {pricingTable && pricingTable.map((list, index) =>
 
-                        <div key={index} className="border-2 border-krutNeon border-opacity-40 text-white rounded-3xl h-full mx-8 sm:mx-4 xl:mx-8 max-w-[468px] mt-14 sm:my-5" >
+                        <div key={index} className="border-2 border-krutNeon border-opacity-40 text-white rounded-3xl h-full mx-8 sm:mx-4 xl:mx-8 max-w-[468px] mt-14 sm:my-5" 
+                        data-aos="fade-left" data-aos-delay={300 + (index * 300)} data-aos-anchor="#trigger-right" data-aos-anchor-placement="top-center">
 
                             {/* Best value Ribbon */}
                             <div className={`flex w-full justify-end relative mt-6 ms-9 ${list?.title !== "Pro" ? "opacity-0" : ""}`}>
@@ -41,7 +42,7 @@ function PricingCards({ isMonthly, isExpanded, isHomePage = false, currency = "I
                                 </h1>
                                 <p className="text-base sm:text-xl font-light mb-4 text-wrap">{list?.description}</p>
                                 <h1 className="font-semibold text-2xl sm:text-3xl lg:4-xl mb-4">
-                                    {currencyData.symbol} {(list?.title === "Plus" ? plusMultiplier : proMultiplier) * (isMonthly ? Math.ceil(list?.priceMonthly * currencyData.exchangeRate) :  Math.ceil(list?.priceYearly * currencyData.exchangeRate))}/month*
+                                    {currencyData.symbol} {(list?.title === "Plus" ? plusMultiplier : proMultiplier) * (isMonthly ? Math.ceil(list?.priceMonthly * currencyData.exchangeRate) : Math.ceil(list?.priceYearly * currencyData.exchangeRate))}/month*
                                 </h1>
                                 <br />
 
@@ -101,7 +102,17 @@ function PricingCards({ isMonthly, isExpanded, isHomePage = false, currency = "I
                                 <div className="flex items-center justify-center">
 
                                     <button className="zoomEffect text-black text-xl sm:text-2xl xl:text-3xl justify-center px-6 py-3 w-[75%] font-bold rounded-[1.5rem] mt-7 cursor-pointer"
-                                        onClick={() => Navigate('/contact')}
+                                        onClick={() => {
+                                            if (list?.title !== "Free") {
+                                                return  Navigate("/bookademo") //temp
+                                                //Plus & Pro Payment redirection Link to App Login
+                                                window.location.href = APP_LINK + `login?plan=${list?.title}&users=${list?.title === "Plus" ? plusMultiplier : proMultiplier}&currency=${currencyData?.currency}&period=${isMonthly? "monthly" : "yearly"}`
+                                            } else {
+                                                window.location.href = APP_LINK
+                                                return
+                                                window.location.href = APP_LINK + "signup"
+                                            }
+                                        }}
                                         style={{
                                             backgroundImage: list?.title === "Pro" ?
                                                 'linear-gradient(180deg, #FFFFFF -225.69%, #01DDE9 35.95%, #37003E 141.48%)' :
@@ -114,9 +125,9 @@ function PricingCards({ isMonthly, isExpanded, isHomePage = false, currency = "I
                             </div>
 
 
-                            {isExpanded && <div className=" text-white border-krutNeon border border-x-0 border-b-0 text-base sm:text-lg leading-8 sm:leading-10 rounded-t-3xl rounded-b-3xl px-5 py-5 tracking-tight">
+                            {isExpanded && <div className=" text-white border-krutNeon border border-x-0 border-b-0 text-base sm:text-lg leading-8 sm:leading-10 rounded-t-[1.35rem] rounded-b-[1.35rem] px-5 py-5 tracking-tight">
                                 <p> &#x2713;  <span className='ms-3 font-semibold'>{list?.storage} GB Storage</span></p>
-                                <p> &#x2713;  <span className='ms-3 font-semibold'>{list?.iStock} Photos by iStock</span></p>
+                                <p> &#x2713;  <span className='ms-3 font-semibold'>{list?.unsplash} Photos by unsplash</span></p>
                                 <p>&#x2713;  <span className='ms-3 font-semibold'>Unlimited Projects</span></p>
                                 <p>&#x2713;  <span className='ms-3 font-semibold'>Watermark {list?.watermark}</span></p>
                                 <p>&#x2713;  <span className='ms-3 font-semibold'>Unlock {list?.backgrounds} Backgrounds</span></p>

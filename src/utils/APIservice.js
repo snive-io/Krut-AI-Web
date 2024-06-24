@@ -54,3 +54,19 @@ export const bookDemoAPI = async (data) => {
         throw Error(error.message);
     }
 };
+
+// ============ Early Access API ================
+export const bookEarlyAccessAPI = async (data) => {
+    try {
+        const url = API_END_POINT + supportEndPoint?.earlyAccess?.url;
+        const response = await axios.post(url, data);
+        if (response?.data) {
+            return response.data;
+        } else {
+            throw new Error("Unable to get response");
+        }
+    } catch (error) {
+        console.log(error.message);
+        throw Error(error.message);
+    }
+};

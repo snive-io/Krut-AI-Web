@@ -91,7 +91,7 @@ const BookADemo = () => {
 
     const formBackground = {
         backgroundColor: 'black',
-        backgroundImage: `url("/images/Green_shade.png")`,
+        backgroundImage: `url("/images/Green_shade.webp")`,
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',

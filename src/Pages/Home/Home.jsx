@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "../../Components/Header/Header";
-import Comp2Gif from "../../assets/Images/Comp2.gif";
 import MobileAppAd from "../../Components/Home/MobileAppAd";
 import { Link } from "react-router-dom";
 import GetStarted from "../../Components/GetStarted/GetStarted";
@@ -20,14 +19,20 @@ const Home = () => {
   return (
     <>
       {/* First Section */}
-      <div
-        className="conatiner-fluid  bg-cover bg-no-repeat bg-center min-h-[560px] lg:min-h-[600px] 2xl:min-h-screen  "
-        style={{ backgroundImage: `url(${Comp2Gif})` }}
-      >
-        <div className="bg-black bg-opacity-90 min-h-[560px] lg:min-h-[600px] 2xl:min-h-screen">
+      <div className="conatiner-fluid bg-cover bg-no-repeat bg-center min-h-[560px] lg:min-h-[600px] 2xl:min-h-screen  "
+        style={{ backgroundImage: `url("/images/Green_shade.webp")` }}>
+
+        <div className="bg-black bg-opacity-10 min-h-[560px] lg:min-h-[600px] 2xl:min-h-screen">
           <Header />
+
+          <div className="flex justify-center items-center text-white">
+            <div className="max-w-[330px] lg:max-w-[430px]">
+            <img src="/images/productHunt.webp" alt="product hunt banner"  className="w-full" data-aos="fade-right"/>
+            </div>
+          </div>
+
           <div className="text-center py-10 2xl:py-24 xl:py-16 flex flex-col justify-center items-center">
-            <div className="leading-tight ">
+            <div className="leading-tight" data-aos="fade-up">
               <h1 className="text-white sm:text-5xl md:text-6xl text-4xl lg:text-7xl  xl:text-8xl 2xl:text-[9rem] font-bold">
                 Design Your <span className="text-krutNeon">Ideas</span>
               </h1>
@@ -60,10 +65,10 @@ const Home = () => {
               </ul>
             </div>
 
-            <Link to='/bookademo'>
+            <Link to='/earlyaccess'>
               <div className="sec-one-button zoomEffect text-black rounded-full px-8 py-1 mt-16 text-lg  lg:px-20 lg:py-2 lg:mt-8 2xl:mt-14 2xl:py-4 2xl:px-28 lg:text-2xl 2xl:text-4xl font-bold"
                 style={{ background: "linear-gradient(180deg, #FFFFFF -225.69%, #01DDE9 35.95%, #37003E 141.48%)" }} >
-                Try Krut AI <span className="text-base">(Beta)</span>
+                Get Early Access
               </div>
             </Link>
 
@@ -72,7 +77,7 @@ const Home = () => {
       </div>
 
       {/* Second Section */}
-      <div className=" min-h-[8rem] md:min-h-[9rem] lg:min-h-[10rem] flex justify-center items-center mx-[16px] 2xl:mx-[64px] lg:mx-7 ">
+      <div className=" min-h-[8rem] md:min-h-[9rem] lg:min-h-[10rem] flex justify-center items-center mx-[16px] 2xl:mx-[64px] lg:mx-7" data-aos="flip-up">
         <video className="w-full h-auto  rounded-2xl 2xl:rounded-[3rem]  mt-[-1rem] mb-[-1rem] md:mb-[-2rem] lg:mb-[-3rem] 2xl:mt-[-4rem] 2xl:mb-[-4rem] object-cover"
           autoPlay loop muted controls >
           <source src={PromoVideo} type="video/mp4" />
@@ -86,7 +91,7 @@ const Home = () => {
 
 
       <div
-        className=" min-h-[8rem]  lg:min-h-screen bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${Comp2Gif})` }}>
+        className=" min-h-[8rem]  lg:min-h-screen bg-cover bg-no-repeat bg-center">
         <div className="lg:min-h-screen  min-h-[8rem] bg-black bg-opacity-95 py-16 flex flex-col justify-center ">
           <div className="border border-krutNeon  min-h-[10rem] md:min-h-[20rem] 2xl:min-h-[25rem] text-white rounded-[43px] mx-4 md:mx-16 lg:mx-20 xl:mx-[17rem] flex flex-col  justify-center items-center">
             <h1 className="text-center font-bold text-3xl md:text-5xl lg:text-6xl">

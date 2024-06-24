@@ -10,7 +10,7 @@ import MobileAppAd from "../../Components/Home/MobileAppAd";
 const Blogs = () => {
   const linearGreenBackground = {
     backgroundColor: "black",
-    backgroundImage: `url("/images/Green_shade.png")`,
+    backgroundImage: `url("/images/Green_shade.webp")`,
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",

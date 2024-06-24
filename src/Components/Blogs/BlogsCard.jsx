@@ -6,7 +6,7 @@ const BlogsCard = ({ blog }) => {
 
   return (
     <>
-      <div className="bg-white xl:w-[90%] relative mt-8 mx-8 my-2 px-2 py-2 min-h-[15rem] xl:min-h-[24rem] 2xl:h-[32rem] rounded-[1rem] ">
+      <div className="bg-white xl:w-[90%] relative mt-8 mx-8 my-2 px-2 py-2 min-h-[15rem] xl:min-h-[24rem] 2xl:h-[32rem] rounded-[1rem]" data-aos="fade-up">
 
         <a href={`/blog?id=${blog?.id}`}>
           <img

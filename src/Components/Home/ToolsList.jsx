@@ -48,7 +48,7 @@ function ToolsList() {
                                 description={card.description}
                                 gif={card.gif}
                                 thumbnail={card.thumbnail}
-                                isComingSoon={index === 7}
+                                isComingSoon={index === 8} //coming soon test case
                                 index={index}
                             />
                         </div>

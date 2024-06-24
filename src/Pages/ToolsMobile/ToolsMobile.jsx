@@ -22,7 +22,7 @@ const ToolsMobile = () => {
                 description={card.description}
                 gif={card.gif}
                 thumbnail={card.thumbnail}
-                isComingSoon={index === 7}
+                isComingSoon={index === 8}
                 index={index}
               />
             </div>

@@ -5,14 +5,15 @@ import Upscaler from '../assets/Gif/Scaler.mp4'
 import MagicRemove from '../assets/Gif/Magic removal.mp4'
 import MagicReplace from '../assets/Gif/Magic Replace.mp4'
 import Outpaint from '../assets/Gif/Outpaint.mp4'
-import BrRemovetn from '../assets/Images/bg remove00.jpg'
+import BrRemovetn from '../assets/Images/bg_remove.webp'
 import Upscalertn from "../assets/Images/upscale1.jpg"
 import MagivRemovetn from "../assets/Images/remove anything0.jpg"
 import MagicReplacetn from "../assets/Images/replace00.jpg"
 import Outpainttn from "../assets/Images/outpaintt0.jpg"
 import ModelStudiotn from "../assets/Images/model studio new0.jpg"
 import ProductStudiotn from "../assets/Images/new product studio00.jpg"
-import Toolsbg from "../assets/Images/luxa.org-opacity-changed-toolsbgg.jpeg"
+// import Toolsbg from "../assets/Images/luxa.org-opacity-changed-toolsbgg.jpeg"
+import virtualTryOn from "/images/tryOn_thumbnail.webp"
 
 const cardData = [
   {
@@ -89,7 +90,7 @@ const cardData = [
     title: "Virtual Try-On",
     description: "Try on glasses, outfits, and more in real-time online before buying with Krut AI",
     gif: null,
-    thumbnail: Toolsbg,
+    thumbnail: virtualTryOn,
     video: null,
     beforeImg: "/images/tryOn_before.webp",
     afterImg: "/images/tryOn_after.webp",
