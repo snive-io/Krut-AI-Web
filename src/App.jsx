@@ -53,7 +53,7 @@ function App() {
           <Route path="/mobiletools" element={<ToolsMobile />} />
           <Route path="/tools" element={<Tools />} />
           <Route path="/help" element={<Help />} />
-          <Route path="/early_access" element={<EarlyAccess />} />
+          <Route path="/earlyaccess" element={<EarlyAccess />} />
           <Route path="*" element={<Home />} />
         </Routes>
       </Suspense>

@@ -4,7 +4,7 @@ import Footer from '../../Components/Footer/Footer';
 import Faq from '../../Components/faq/Faq';
 import { faqData } from '../../Data/faqData';
 import toast from 'react-hot-toast';
-import { bookDemoAPI } from '../../utils/APIservice';
+import { bookEarlyAccessAPI } from '../../utils/APIservice';
 import { CountryCodes } from '../../Data/CountryCodes';
 
 const EarlyAccess = () => {
@@ -61,7 +61,7 @@ const EarlyAccess = () => {
 
         toast.loading('Sending Request...'); // Display loading indicator
 
-        const response = await bookDemoAPI(
+        const response = await bookEarlyAccessAPI(
             {
                 firstName: formData.firstName,
                 lastName: formData.lastName,

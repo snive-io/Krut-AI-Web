@@ -65,7 +65,7 @@ const Home = () => {
               </ul>
             </div>
 
-            <Link to='/bookademo'>
+            <Link to='/earlyaccess'>
               <div className="sec-one-button zoomEffect text-black rounded-full px-8 py-1 mt-16 text-lg  lg:px-20 lg:py-2 lg:mt-8 2xl:mt-14 2xl:py-4 2xl:px-28 lg:text-2xl 2xl:text-4xl font-bold"
                 style={{ background: "linear-gradient(180deg, #FFFFFF -225.69%, #01DDE9 35.95%, #37003E 141.48%)" }} >
                 Get Early Access

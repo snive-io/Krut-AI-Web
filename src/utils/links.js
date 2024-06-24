@@ -15,4 +15,8 @@ export const supportEndPoint = {
         url: 'api/v1/web/book-a-demo',
         method: 'POST',
     },
+    earlyAccess: {
+        url: 'api/v1/web/early-access',
+        method: 'POST',
+    },
 };
