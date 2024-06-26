@@ -27,7 +27,9 @@ const Home = () => {
 
           <div className="flex justify-center items-center text-white">
             <div className="max-w-[330px] lg:max-w-[430px]">
-            <img src="/images/productHunt.webp" alt="product hunt banner"  className="w-full" data-aos="fade-right"/>
+              <a href="https://www.producthunt.com/products/krut-ai" target="_blank" rel="product hunt invite">
+                <img src="/images/productHunt.webp" alt="product hunt banner" className="w-full" data-aos="fade-right" />
+              </a>
             </div>
           </div>
 
