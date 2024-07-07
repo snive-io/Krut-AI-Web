@@ -14,6 +14,7 @@ import BlogsList from "../../Components/Blogs/BlogsList";
 import PricingCards from "../../Components/Pricing/PricingCards";
 import ToolsList from "../../Components/Home/ToolsList";
 import DiscordBanner from "../../Components/Home/DiscordBanner";
+import { APP_LINK } from "../../utils/links";
 
 const Home = () => {
   return (
@@ -25,16 +26,27 @@ const Home = () => {
         <div className="bg-black bg-opacity-10 min-h-[560px] lg:min-h-[600px] 2xl:min-h-screen">
           <Header />
 
-          <div className="flex justify-center items-center text-white">
+          {/* <div className="flex justify-center items-center text-white">
             <div className="max-w-[330px] lg:max-w-[430px]">
               <a href="https://www.producthunt.com/products/krut-ai" target="_blank" rel="product hunt invite">
-                <img src="/images/productHunt.webp" alt="product hunt banner" className="w-full" data-aos="fade-right" />
+                <img src="/images/productHunt.webp" alt="product hunt banner" className="w-full"
+                // data-aos="fade-right"
+                />
               </a>
             </div>
+          </div> */}
+
+          <div className="flex justify-center mt-4">
+            <a href="https://www.producthunt.com/posts/krut-ai?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-krut&#0045;ai" target="_blank">
+              <img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=465883&theme=dark" alt="Krut&#0032;AI - Most&#0032;Advanced&#0032;AI&#0032;Image&#0032;Generator&#0032;for&#0032;E&#0045;Commerce&#0032;Businesses | Product Hunt" 
+              style={{ "width": "450px", "height": "124px" }} width="250" height="54" />
+            </a>
           </div>
 
           <div className="text-center py-10 2xl:py-24 xl:py-16 flex flex-col justify-center items-center">
-            <div className="leading-tight" data-aos="fade-up">
+            <div className="leading-tight"
+            // data-aos="fade-up"
+            >
               <h1 className="text-white sm:text-5xl md:text-6xl text-4xl lg:text-7xl  xl:text-8xl 2xl:text-[9rem] font-bold">
                 Design Your <span className="text-krutNeon">Ideas</span>
               </h1>
@@ -45,17 +57,14 @@ const Home = () => {
 
             <div className="mt-10 lg:mt-4 2xl:mt-6 xl:mt-5 leading-normal">
               <h2 className="hidden md:block text-white text-center  2xl:text-3xl mx-auto lg:text-lg xl:text-xl">
-                Acquire the tools necessary for designing ads, banners, websites
-                and more, all with the
+                An AI Platform that integrates products to generate high-quality custom brand images
               </h2>
               <h2 className="hidden md:block text-white text-center 2xl:text-3xl xl:text-xl mx-auto">
-                click of a button.
+                without being an expert prompter.
               </h2>
 
               <h2 className="md:hidden text-white text-center  2xl:text-3xl mx-4 lg:text-lg xl:text-xl">
-                Acquire the tools necessary for designing ads, banners, websites
-                and more, all with the click of button which saves
-                cost, increases efficiency and accuracy at minimal cost.
+                An AI Platform that integrates products to generate high-quality custom brand images without being an expert prompter.
               </h2>
               {/* <p className="md:hidden text-white text-center 2xl:text-3xl xl:text-xl mx-auto">click of a button</p> */}
 
@@ -67,19 +76,21 @@ const Home = () => {
               </ul>
             </div>
 
-            <Link to='/earlyaccess'>
+            <a href={APP_LINK}>
               <div className="sec-one-button zoomEffect text-black rounded-full px-8 py-1 mt-16 text-lg  lg:px-20 lg:py-2 lg:mt-8 2xl:mt-14 2xl:py-4 2xl:px-28 lg:text-2xl 2xl:text-4xl font-bold"
                 style={{ background: "linear-gradient(180deg, #FFFFFF -225.69%, #01DDE9 35.95%, #37003E 141.48%)" }} >
-                Get Early Access
+                Try Krut AI
               </div>
-            </Link>
+            </a>
 
           </div>
         </div>
       </div>
 
       {/* Second Section */}
-      <div className=" min-h-[8rem] md:min-h-[9rem] lg:min-h-[10rem] flex justify-center items-center mx-[16px] 2xl:mx-[64px] lg:mx-7" data-aos="flip-up">
+      <div className=" min-h-[8rem] md:min-h-[9rem] lg:min-h-[10rem] flex justify-center items-center mx-[16px] 2xl:mx-[64px] lg:mx-7"
+      //  data-aos="flip-up"
+      >
         <video className="w-full h-auto  rounded-2xl 2xl:rounded-[3rem]  mt-[-1rem] mb-[-1rem] md:mb-[-2rem] lg:mb-[-3rem] 2xl:mt-[-4rem] 2xl:mb-[-4rem] object-cover"
           autoPlay loop muted controls >
           <source src={PromoVideo} type="video/mp4" />

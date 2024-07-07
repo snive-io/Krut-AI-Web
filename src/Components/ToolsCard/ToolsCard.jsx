@@ -17,7 +17,7 @@ const ToolsCard = ({ title, description, gif, thumbnail, isComingSoon, index }) 
   };
   return (
 
-    <div className="bg-white relative px-2 py-2 h-[21rem] xl:h-[24rem] 2xl:h-[24rem] rounded-[1rem] cursor-pointer" onMouseEnter={() => handleTileMouseEnter(index)}
+    <div className="m-5 bg-white relative px-2 py-2 h-[21rem] xl:h-[24rem] 2xl:h-[24rem] rounded-[1rem] cursor-pointer" onMouseEnter={() => handleTileMouseEnter(index)}
       onMouseLeave={handleTileMouseLeave} onClick={() => { Navigate(`/tools?tool=${title}`) }}
        data-aos="fade-up" data-aos-delay={300 + (index * 300)} data-aos-anchor="#trigger-right" data-aos-anchor-placement="top-center" >
       {isComingSoon && (

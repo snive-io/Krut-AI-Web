@@ -146,7 +146,7 @@ function Footer() {
 
                     <div className="text-gray-400 mt-8 my-3 items-center justify-center flex">
                             <a target='_blank' href='https://maps.app.goo.gl/XDJLmysK7m5XbcEy5' className="material-symbols-outlined"> distance </a>
-                            <span className='px-1'> 2461, 14th A Cross Rd, 1st Sector, HSR Layout, Bengaluru, Karnataka 560102 </span>
+                            <span className='px-1'> Bengaluru, Karnataka, India </span>
                     </div>
 
                     <div className="text-center text-gray-400 my-3">
