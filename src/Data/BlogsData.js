@@ -261,7 +261,7 @@ export const BlogsData = [
     {
         id: 5,
         genre: "Technology",
-        title: "Introducing Krut AI: AI Co-Pilot For E-commerce",
+        title: "Introducing Krut AI: AI Co-Pilot For E-commerce Marketplaces",
         profilePic: "/blogs/harsh.webp",
         author: "Harsh Gupta",
         date: "July 3, 2024",
