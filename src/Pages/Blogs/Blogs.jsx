@@ -53,8 +53,9 @@ const Blogs = () => {
                 Recent Post
               </h1>
               <button className="border lg:border-2  border-krutNeon text-white text-[10px] sm:text-sm lg:text-lg 2xl:text-2xl rounded-lg lg:rounded-full px-2 lg:px-8 lg:font-medium py-1  mt-2"
-                onClick={() => Navigate(`/blog?id=${blogs.length}`)}
-              >
+                onClick={() =>
+                  window.location.href = `/blog?id=${blogs.length}`
+                }>
                 Read more
               </button>
             </div>
@@ -63,7 +64,7 @@ const Blogs = () => {
 
         </div>
 
-        <BlogsList isExtended={true}/>
+        <BlogsList isExtended={true} />
         <MobileAppAd />
         <GetStarted />
         <Footer />

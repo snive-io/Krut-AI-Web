@@ -213,7 +213,7 @@ export const BlogsData = [
 
         titleImg: "/blogs/4.webp",
 
-        titleIntro: "In the visually driven world of e-commerce, advertising with compelling images can significantly enhance customer engagement and boost sales. However, the logistics and expenses of traditional photo shoots often limit the creative possibilities. Enter Krut AI's innovative tool, Model Studio, which harnesses the power of AI to revolutionize how businesses create ads by generating photorealistic human models. This breakthrough offers a cost-effective, efficient solution perfect for e-commerce business owners and SMEs looking to elevate their advertising strategies.",
+        titleIntro: "In the fast-paced world of e-commerce, captivating product imagery can make or break a sale. But what if creating stunning, professional-grade photos was as simple as describing what you want? Enter Krut AI, the groundbreaking AI-powered image generator that's set to transform how e-commerce businesses showcase their products.",
 
         blogContent: `<h2 style="font-size: 2rem; padding: 10px 0px; font-weight:600" > <span>The Revolution of AI-Generated Human Models in Advertising</span></h2>
         <p><span>Model Studio by Krut AI is not just a tool; it's a game-changer for digital advertising. Using advanced AI technology, this platform allows users to create high-quality, engaging ads that include human models without the complexities and high costs associated with traditional photo shoots.</span></p>
@@ -257,5 +257,106 @@ export const BlogsData = [
         <p><span>Krut AI&rsquo;s Model Studio is shaping the future of advertising for e-commerce and SMEs. By integrating AI with the creative process, businesses can now produce ads that were once only possible with substantial budgets and resources. This level of innovation not only levels the playing field but also opens up new possibilities for personalization and efficiency in ad creation.</span></p>
         <h2 style="font-size: 2rem; padding: 10px 0px; font-weight:600" > &nbsp;</h2>
         <p><span>Embrace the future with Model Studio and transform how you create ads, making every campaign as unique and dynamic as your business. Harness the power of AI and set your brand apart in the bustling digital marketplace.</span></p>`
+    },
+    {
+        id: 5,
+        genre: "Technology",
+        title: "Introducing Krut AI: AI Co-Pilot For E-commerce",
+        profilePic: "/blogs/harsh.webp",
+        author: "Harsh Gupta",
+        date: "July 3, 2024",
+
+        titleImg: "/blogs/5.webp",
+
+        titleIntro: "In the visually driven world of e-commerce, advertising with compelling images can significantly enhance customer engagement and boost sales. However, the logistics and expenses of traditional photo shoots often limit the creative possibilities. Enter Krut AI's innovative tool, Model Studio, which harnesses the power of AI to revolutionize how businesses create ads by generating photorealistic human models. This breakthrough offers a cost-effective, efficient solution perfect for e-commerce business owners and SMEs looking to elevate their advertising strategies.",
+
+        blogContent: `<h2 style="font-size: 2rem; padding: 10px 0px; font-weight:600" class='text-center'> <span>What is Krut AI?</span></h2>
+
+        <img src="/blogs/5_1.webp" alt="Krut AI on Product Hunt" style="width:100%; max-width:900px; display:block; margin:20px auto;">
+
+        <p><span><a target='_blank' class='underline underline-offset-4 decoration-1' href='https://app.krut.ai'>Krut AI</a> is an innovative platform that harnesses the power of advanced artificial intelligence to generate high-quality, custom images for e-commerce without requiring users to be expert prompters or professional photographers. Whether you're a small Etsy shop owner or managing a large online retail platform, Krut AI offers a game-changing solution to one of e-commerce's most persistent challenges: creating engaging, conversion-driving visual content quickly and affordably.</span></p>
+        <h2 style="font-size: 2rem; padding: 10px 0px; font-weight:600" > &nbsp;</h2>
+        <h2 style="font-size: 2rem; padding: 10px 0px; font-weight:600" > <span>Key Features of Krut AI</span></h2>
+
+        <h3 style="font-size: 1.25rem; padding: 10px 0px; font-weight:500"><span> <a target='_blank' class='' href='https://www.krut.ai/tools?tool=Product%20Studio'>AI-Powered Product & Model Shots</a> </span></h3>
+        <p><span>Generate realistic product images and model shots using simple text descriptions or reference images.</span></p>
+        <h2 style="font-size: 0.5rem; padding: 10px 0px; font-weight:600" > &nbsp;</h2>
+        
+        <h3 style="font-size: 1.25rem; padding: 10px 0px; font-weight:500"><span>Smart E-commerce Content Creator </span></h3>
+        <p><span>Automatically create diverse content types including social media posts, product descriptions, keywords, captions, hashtags, titles, end-to-end A+ content creation, and website banners.</span></p>
+        <h2 style="font-size: 0.5rem; padding: 10px 0px; font-weight:600" > &nbsp;</h2>
+
+        <img src="/blogs/5_2.webp" alt="Smart E-commerce Content Creator" style="width:100%; max-width:900px; display:block;">
+
+        <h2 style="font-size: 0.5rem; padding: 10px 0px; font-weight:600" > &nbsp;</h2>
+        <h3 style="font-size: 1.25rem; padding: 10px 0px; font-weight:500"><span>Advanced AI Editing Suite</span></h3>
+        <p><span>Access powerful editing tools, making image refinement a breeze.</span></p>
+        <h2 style="font-size: 0.5rem; padding: 10px 0px; font-weight:600" > &nbsp;</h2>
+        <h3 style="font-size: 1.25rem; padding: 10px 0px; font-weight:500"><span>Multilingual AI Assistant</span></h3>
+        <p><span>Easily get your queries answered with Krut AI Assistant with multilingual support.</span></p>
+        <h2 style="font-size: 0.5rem; padding: 10px 0px; font-weight:600" > &nbsp;</h2>
+        
+        <h3 style="font-size: 1.25rem; padding: 10px 0px; font-weight:500"><span> <a target='_blank' class='' href='https://www.krut.ai/tools?tool=Virtual%20Try-On'>Virtual Try-On</a> </span></h3>
+        <p><span>Change your accessories, clothes, or any product from a body in a real-time.</span></p>
+        <h2 style="font-size: 2rem; padding: 10px 0px; font-weight:600" > &nbsp;</h2>
+
+        <img src="/blogs/5_3.webp" alt="virtual try-on" style="width:100%; max-width:900px; display:block;">
+        <h2 style="font-size: 0.5rem; padding: 10px 0px; font-weight:600" > &nbsp;</h2>
+        
+        
+        <h2 style="font-size: 2rem; padding: 10px 0px; font-weight:600" >How Krut AI Works <span></span></h2>
+        <p><span>Krut AI utilizes state-of-the-art machine learning algorithms to understand and generate images based on text prompts or reference images. <a target='_blank' class='underline underline-offset-4 decoration-1' href='https://www.youtube.com/@krutai_'>Here's a simplified workflow:</a> </span></p>
+        <h2 style="font-size: 0.5rem; padding: 10px 0px; font-weight:600" > &nbsp;</h2>
+        
+        <p><span>1. Input your requirements via text or upload a reference image.</span></p>
+        <p><span>2. Krut AI processes your input and generates multiple image options harmonized and non-harmonized.</span></p>
+        <p><span>3. Choose your preferred image and use the AI editing suite for fine-tuning.</span></p>
+        <p><span>4. Create your content collateral from the final image selected by just giving a prompt on what content type you need (product descriptions, keywords, captions, hashtags, titles, end-to-end A+ content creation).</span></p>
+        <p><span>5. Export your finalized image with content in various formats suitable for different platforms.</span></p>
+        
+        <h2 style="font-size: 0.5rem; padding: 10px 0px; font-weight:600" > &nbsp;</h2>
+        
+        <h2 style="font-size: 2rem; padding: 10px 0px; font-weight:600" >Getting Started with Krut AI <span></span></h2>
+        <p><span>1. <a target='_blank' class='underline underline-offset-4 decoration-1' href='https://app.krut.ai/signup'>Sign up</a> for a Krut AI account on our website from 9th July or get early access now with an exclusive offer.</span></p>
+        <p><span>2. Choose your <a target='_blank' class='underline underline-offset-4 decoration-1' href='https://www.krut.ai/pricing'>subscription plan</a> (including a free tier for beginners).</span></p>
+        <p><span>3. Access the dashboard and start creating your first AI-generated image.</span></p>
+        <p><span>4. Experiment with different prompts and editing tools to achieve your desired result.</span></p>
+        <p><span>5. Export and use your images across your e-commerce platforms.</span></p>
+        <p><span>6. Just be curious because we are not stopping here, the next thing is a real-time virtual try-on and more.</span></p>
+        <h2 style="font-size: 0.5rem; padding: 10px 0px; font-weight:600" > &nbsp;</h2>
+        <h2 style="font-size: 2rem; padding: 10px 0px; font-weight:600" >Use Cases and Potential Applications <span></span></h2>
+        <p><span>- Product Photography: Create professional-looking product shots without expensive equipment.</span></p>
+        <p><span>- Model Showcases: Generate diverse model images wearing your products.</span></p>
+        <p><span>- Seasonal Campaigns: Quickly produce themed imagery for holiday sales or special events.</span></p>
+        <p><span>- Social Media Content: Create eye-catching visuals for <a target='_blank' class='underline underline-offset-4 decoration-1' href='https://www.instagram.com/_krut.ai/'>Instagram</a>, <a target='_blank' class='underline underline-offset-4 decoration-1' href='https://www.facebook.com/people/Krut-AI/61559205755709/'>Facebook</a>, <a target='_blank' class='underline underline-offset-4 decoration-1' href='https://www.linkedin.com/company/krut-ai/?viewAsMember=true&lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3BOb6Ja7UNSy2KK8aFaEvmgg%3D%3D'>LinkedIn</a>, and Pinterest.</span></p>
+        <p><span>- Marketplace Listings: Enhance your product listings on platforms like Amazon, Flipkart, or Alibaba.</span></p>
+        <p><span>- Partnership or Collaboration: Enhance your tool with our API-first approach or plugin to use Krut with your platforms like Shopify, Freshwork, or ZunderDog.</span></p>
+        
+        <h2 style="font-size: 0.5rem; padding: 10px 0px; font-weight:600" > &nbsp;</h2>
+        
+        <h2 style="font-size: 2rem; padding: 10px 0px; font-weight:600" >Why Krut AI Matters for E-Commerce <span></span></h2>
+        <p><span>1. Cost-Effective: Eliminate the need for expensive photo shoots and equipment.</span></p>
+        <p><span>2. Time-Saving: Generate multiple images in minutes instead of hours or days.</span></p>
+        <p><span>3. Consistency: Maintain a cohesive visual brand across all your products.</span></p>
+        <p><span>4. Scalability: Easily create images for large product catalogs.</span></p>
+        <p><span>5. Creativity: Experiment with various styles and concepts without limitations.</span></p>
+        <p><span>6. Similarity: Get assured with our Machine Learning Algorithm that matches your face and gives you the face similarity score with realisticness.</span></p>
+        
+        <h2 style="font-size: 0.5rem; padding: 10px 0px; font-weight:600" > &nbsp;</h2>
+        
+        <h2 style="font-size: 2rem; padding: 10px 0px; font-weight:600" >Join Us on Product Hunt <span></span></h2>
+        <p><span>We're excited to announce that Krut AI is launching on Product Hunt on July 9th, 2024! We invite you to join us for this milestone and be among the first to experience the future of e-commerce imagery.</span></p>
+        <p><span>Visit our <a target='_blank' class='underline underline-offset-4 decoration-1' href='https://www.producthunt.com/products/krut-ai'>Product Hunt</a> page on launch day to:</span></p>
+        <p><span>- Learn more about Krut AI's features</span></p>
+        <p><span>- See real-world examples of AI-generated e-commerce imagery</span></p>
+        <p><span>- Engage with our team and ask questions</span></p>
+        <p><span>- Get exclusive launch day offers</span></p>
+        <p><span>Don't miss this opportunity to revolutionize your e-commerce visual content strategy. Set a reminder for July 9th and join us on Product Hunt as we unveil Krut AI to the world!</span></p>
+        <p><span><a target='_blank' class='underline underline-offset-4 decoration-1' href='https://www.producthunt.com/products/krut-ai'>Remind Me About the Krut AI Launch</a></span></p>
+        
+        <h2 style="font-size: 0.5rem; padding: 10px 0px; font-weight:600" > &nbsp;</h2>
+
+        <p><span>Together, let's redefine what's possible in e-commerce with Krut AI.</span></p>
+        `
     },
 ]
