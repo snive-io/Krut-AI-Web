@@ -43,7 +43,9 @@ function TalkToUsComponent() {
     <>
        {/* ======== Talk to Us =========  */}
        <div className="px-8 sm:px-4 xl:px-8 mb-16">
-                    <div className="flex flex-col items-center text-center lg:text-start lg:items-start w-full rounded-3xl p-10" style={talkToUsBackground} data-aos="flip-up">
+                    <div className="flex flex-col items-center text-center lg:text-start lg:items-start w-full rounded-3xl p-10" style={talkToUsBackground} 
+                    // data-aos="flip-up"
+                    >
                         <div className="">
                             <div className="max-w-sm lg:max-w-full text-white font-bold text-xl md:text-2xl lg:text-4xl xl:text-5xl lg:space-y-4">
                                 <p className='block md:hidden'>Ready to start your AI journey? Let's find your Ideal Krut Plan together.</p>

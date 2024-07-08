@@ -5,6 +5,7 @@ import { BlogsData } from '../../Data/BlogsData';
 import Footer from '../../Components/Footer/Footer';
 import { useLocation, useNavigate } from 'react-router-dom';
 import "./blog.css"
+import { APP_LINK } from '../../utils/links';
 
 
 const Blog = () => {
@@ -74,10 +75,10 @@ const Blog = () => {
                                 </div>
                                 <div className='text-white text-xs lg:text-sm 2xl:text-xl md:mt-2 lg:mt-4 2xl:mt-5 text-center'>
                                     <h1 className='text-xs md:text-[10px] lg:text-sm'>Get Started For Free</h1>
-                                    <button className='rounded-full py-1.5 px-4 mt-2 2xl:mt-3 md:text-xs lg:text-sm text-black font-semibold' style={{ background: 'linear-gradient(180deg, #FFFFFF -225.69%, #01DDE9 35.95%, #37003E 141.48%)' }}
-                                        onClick={() => Navigate("/bookademo")}>
+                                    <a className='rounded-full py-1.5 px-4 mt-2 2xl:mt-3 md:text-xs lg:text-sm text-black font-semibold' style={{ background: 'linear-gradient(180deg, #FFFFFF -225.69%, #01DDE9 35.95%, #37003E 141.48%)' }}
+                                        href={APP_LINK}>
                                         Try Krut AI
-                                    </button>
+                                    </a>
                                 </div>
                             </div>
                         </div>

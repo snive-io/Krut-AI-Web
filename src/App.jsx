@@ -13,20 +13,20 @@ import BookADemo from "./Pages/BookADemo/BookADemo";
 import TermsAndConditions from "./Pages/TermsAndConditions/TermsAndConditions";
 import PrivacyPolicy from "./Pages/PrivacyPolicy/PrivacyPolicy";
 import Help from "./Pages/Help/Help";
-import AOS from "aos";
-import "aos/dist/aos.css";
+// import AOS from "aos";
+// import "aos/dist/aos.css";
 import EarlyAccess from "./Pages/BookADemo/EarlyAccess";
 
 function App() {
 
-  useEffect(() => {
-    AOS.init({
-      disable: window.innerWidth < 1024,
-      duration: 700,
-      easing: "ease-out-cubic",
-      once: true
-    });
-  }, [])
+  // useEffect(() => {
+  //   AOS.init({
+  //     disable: window.innerWidth < 1024,
+  //     duration: 700,
+  //     easing: "ease-out-cubic",
+  //     once: true
+  //   });
+  // }, [])
 
   return (
 

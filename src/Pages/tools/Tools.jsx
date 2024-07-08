@@ -9,6 +9,7 @@ import Footer from "../../Components/Footer/Footer";
 import { Link, useLocation } from "react-router-dom";
 import { faqData } from "../../Data/faqData";
 import MobileAppAd from "../../Components/Home/MobileAppAd";
+import { APP_LINK } from "../../utils/links";
 
 const Tools = () => {
   const [ToolData, setToolData] = useState(null);
@@ -42,7 +43,7 @@ const Tools = () => {
 
       {ToolData &&
         <div className="text-center lg:pt-10 flex flex-col justify-center items-center">
-          <Link to='/bookademo'>
+          <a href={APP_LINK}>
             <div
               className="sec-one-button  text-black rounded-full px-8 py-1 text-lg  lg:px-20 lg:py-2 lg:mt-8 2xl:mt-14 2xl:py-4 2xl:px-28 lg:text-2xl 2xl:text-4xl font-bold"
               style={{
@@ -51,7 +52,7 @@ const Tools = () => {
               }}>
               Try Krut AI
             </div>
-          </Link>
+          </a>
         </div>
       }
 
