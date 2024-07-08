@@ -29,7 +29,7 @@ export const pricingTable = [
         priceMonthly: 62,
         priceYearly: 50,
         buttonText: "Be a Pro",
-        storage: 200,
+        storage: 100,
         unsplash: "Unlimited",
         projects: "Unlimited",
         watermark: "Not Included",
@@ -78,7 +78,7 @@ export const comparisonTable = [
     },
     {
         title: "Pro",
-        "Storage": "200 GB",
+        "Storage": "100 GB",
         "Unsplash Quota": "Unlimited",
         "Watermark": "Not Included",
         "Clean Anything": "Included",
@@ -114,7 +114,7 @@ export const comparisonTableDemo = [
     },
     {
         title: "Pro",
-        "Storage": "200 GB",
+        "Storage": "100 GB",
         "Unsplash Quota": "Unlimited",
         "Watermark": "Not Included",
         "Clean Anything": "Included",
