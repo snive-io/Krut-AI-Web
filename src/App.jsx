@@ -19,14 +19,11 @@ import EarlyAccess from "./Pages/BookADemo/EarlyAccess";
 
 function App() {
 
-  // useEffect(() => {
-  //   AOS.init({
-  //     disable: window.innerWidth < 1024,
-  //     duration: 700,
-  //     easing: "ease-out-cubic",
-  //     once: true
-  //   });
-  // }, [])
+  useEffect(() => {
+    if (window.location.href?.includes("?ref=producthunt")) {
+      window.location.href = "/";
+    }
+  }, [])
 
   return (
 
@@ -42,7 +39,10 @@ function App() {
         }>
         <Routes>
           <Route path="/" element={<Home />} />
+
+          {/* Route for homepage with ref=producthunt */}
           <Route path="/?ref=producthunt" element={<Home />} />
+
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/blog" element={<Blog />} />
