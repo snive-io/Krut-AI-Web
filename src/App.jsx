@@ -42,6 +42,7 @@ function App() {
         }>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/?ref=producthunt" element={<Home />} />
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/blog" element={<Blog />} />
