@@ -26,22 +26,10 @@ const Home = () => {
         <div className="bg-black bg-opacity-10 min-h-[560px] lg:min-h-[600px] 2xl:min-h-screen">
           <Header />
 
-          {/* <div className="flex justify-center items-center text-white">
-            <div className="max-w-[330px] lg:max-w-[430px]">
-              <a href="https://www.producthunt.com/products/krut-ai" target="_blank" rel="product hunt invite">
-                <img src="/images/productHunt.webp" alt="product hunt banner" className="w-full"
-                // data-aos="fade-right"
-                />
-              </a>
-            </div>
-          </div> */}
-
           <div className="flex justify-center mt-4">
-            <a href="https://www.producthunt.com/posts/krut-ai?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-krut&#0045;ai" target="_blank">
-              <img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=465883&theme=dark" alt="Krut&#0032;AI - Most&#0032;Advanced&#0032;AI&#0032;Image&#0032;Generator&#0032;for&#0032;E&#0045;Commerce&#0032;Businesses | Product Hunt" 
-              style={{ "width": "450px", "height": "124px" }} width="250" height="54" />
-            </a>
+            <a href="https://www.producthunt.com/posts/krut-ai?embed=true&utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-krut&#0045;ai" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=465883&theme=neutral&period=daily" alt="Krut&#0032;AI - AI&#0032;co&#0045;pilot&#0032;for&#0032;e&#0045;commerce&#0032;brands | Product Hunt" style={{ width: "250px", height: "54px" }} width="250" height="54" /></a>
           </div>
+
 
           <div className="text-center py-10 2xl:py-24 xl:py-16 flex flex-col justify-center items-center">
             <div className="leading-tight"
