@@ -26,9 +26,9 @@ const Home = () => {
         <div className="bg-black bg-opacity-10 min-h-[560px] lg:min-h-[600px] 2xl:min-h-screen">
           <Header />
 
-          <div className="flex justify-center mt-4">
+          {/* <div className="flex justify-center mt-4">
             <a href="https://www.producthunt.com/posts/krut-ai?embed=true&utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-krut&#0045;ai" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=465883&theme=neutral&period=daily" alt="Krut&#0032;AI - AI&#0032;co&#0045;pilot&#0032;for&#0032;e&#0045;commerce&#0032;brands | Product Hunt" style={{ width: "250px", height: "54px" }} width="250" height="54" /></a>
-          </div>
+          </div> */}
 
 
           <div className="text-center py-10 2xl:py-24 xl:py-16 flex flex-col justify-center items-center">
