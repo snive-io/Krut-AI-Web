@@ -12,7 +12,7 @@ export const supportEndPoint = {
         method: 'POST',
     },
     bookADemo: {
-        url: 'api/v1/web/book-a-demo',
+        url: 'krut_ai/v1/web/book_demo/',
         method: 'POST',
     },
     earlyAccess: {

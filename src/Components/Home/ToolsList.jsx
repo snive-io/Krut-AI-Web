@@ -12,6 +12,7 @@ function ToolsList() {
 
     useEffect(() => {
         if (!window.location.search?.length) return;
+        if (!window.location.search.includes('tools')) return;
         const location = window.location.search.split('=')[1];
         const keywords = location.split('%20');
         const data = cardData.filter((item) => item.title.includes(keywords[0]) && ((keywords[1]) ? item.title.includes(keywords[1]) : true));

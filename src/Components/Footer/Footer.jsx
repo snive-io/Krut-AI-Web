@@ -43,9 +43,11 @@ function Footer() {
                 <div className="m-5">
                     <div className="flex flex-col lg:flex-row justify-center md:justify-between">
 
-                        <div className="m-3 w-[90%] lg:max-w-[40%] xl:max-w-2xl text-white space-y-7">
-                            <h2 className='text-3xl sm:text-5xl font-bold'>Receive <span className='text-krutNeon'>messages</span> from the future</h2>
-                            <div className="flex">
+                        <div className="m-3 w-[90%] lg:max-w-[40%] xl:max-w-2xl text-white">
+                            <h2 className='text-3xl sm:text-5xl font-bold ps-1'>Stay ahead of the <span className='text-krutNeon'>curve</span> with</h2>
+                            <img src={logo} onClick={() => Navigate('/')} alt="Krut logo" className='w-[180px] sm:w-[250px] cursor-pointer mt-1' />
+                            <div className="ps-2">Subscribe Now !</div>
+                            <div className="flex mt-7">
                                 <input className='w-[70%] bg-transparent border border-white rounded px-3 py-0.5' type="email" placeholder='Email'
                                     value={email}
                                     onChange={(e) => setEmail(e.target.value)}
@@ -60,7 +62,6 @@ function Footer() {
                                 </button>
                             </div>
 
-                            <img src={logo} onClick={() => Navigate('/')} alt="Krut logo" className='w-[180px] sm:w-[250px] cursor-pointer' />
 
                         </div>
 
@@ -75,6 +76,7 @@ function Footer() {
                                     <li className='cursor-pointer'> <a href="https://krut-ai.notion.site/Krut-AI-MVP-User-Manual-b2d5df9733cd411e99b4e92a68c7c154" target='_blank'>Tutorials</a></li>
                                     <li className='cursor-pointer' onClick={() => Navigate('/pricing')}>Pricing</li>
                                     <li className='cursor-pointer' onClick={() => Navigate('/contact')}>Contact Us</li>
+                                    <li className='cursor-pointer' onClick={() => Navigate('/bookademo')}>Book a Demo</li>
                                     {/* <li>Legal</li> */}
                                     {/* <li className='hidden lg:block'>Pricing</li>
                                     <li className='hidden lg:block'>Contact Us</li>
@@ -145,8 +147,8 @@ function Footer() {
                     </div>
 
                     <div className="text-gray-400 mt-8 my-3 items-center justify-center flex">
-                            <a target='_blank' href='https://maps.app.goo.gl/XDJLmysK7m5XbcEy5' className="material-symbols-outlined"> distance </a>
-                            <span className='px-1'> Bengaluru, Karnataka, India </span>
+                        <div className="material-symbols-outlined"> distance </div>
+                        <span className='px-1'> Bengaluru, Karnataka, India </span>
                     </div>
 
                     <div className="text-center text-gray-400 my-3">
