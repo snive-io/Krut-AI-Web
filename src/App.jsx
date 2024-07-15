@@ -38,11 +38,6 @@ function App() {
 
         }>
         <Routes>
-          <Route path="/" element={<Home />} />
-
-          {/* Route for homepage with ref=producthunt */}
-          <Route path="/?ref=producthunt" element={<Home />} />
-
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/blog" element={<Blog />} />
@@ -55,7 +50,7 @@ function App() {
           <Route path="/tools" element={<Tools />} />
           <Route path="/help" element={<Help />} />
           <Route path="/earlyaccess" element={<EarlyAccess />} />
-          <Route path="*" element={<Home />} />
+          <Route path="/" element={<Home />} />
         </Routes>
       </Suspense>
     </>

@@ -4,6 +4,7 @@ import MobileAppAd from "../../Components/Home/MobileAppAd";
 import { Link } from "react-router-dom";
 import GetStarted from "../../Components/GetStarted/GetStarted";
 import github from "../../assets/Images/github.png";
+import nvidia from "../../assets/Images/nvidia.png";
 import aws from "../../assets/Images/aws.png";
 import shellcode from "../../assets/Images/shellcode.png";
 import mongodb from "../../assets/Images/mongodb.png";
@@ -27,7 +28,10 @@ const Home = () => {
           <Header />
 
           <div className="flex justify-center mt-4">
-            <a href="https://www.producthunt.com/posts/krut-ai?embed=true&utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-krut&#0045;ai" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=465883&theme=neutral&period=daily" alt="Krut&#0032;AI - AI&#0032;co&#0045;pilot&#0032;for&#0032;e&#0045;commerce&#0032;brands | Product Hunt" style={{ width: "250px", height: "54px" }} width="250" height="54" /></a>
+            <a href="https://www.producthunt.com/posts/krut-ai?embed=true&utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-krut&#0045;ai" target="_blank">
+              {/* <img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=465883&theme=neutral&period=daily" alt="Krut&#0032;AI - AI&#0032;co&#0045;pilot&#0032;for&#0032;e&#0045;commerce&#0032;brands | Product Hunt" style={{ width: "250px", height: "54px" }} width="250" height="54" /> */}
+              <img src="/images/ProductHunt.svg" alt="Product Hunt 4th Rank" className="w-72" style={{ filter: 'brightness(0) invert(1)' }} />
+            </a>
           </div>
 
 
@@ -35,32 +39,32 @@ const Home = () => {
             <div className="leading-tight"
             // data-aos="fade-up"
             >
-              <h1 className="text-white sm:text-5xl md:text-6xl text-4xl lg:text-7xl  xl:text-8xl 2xl:text-[9rem] font-bold">
-                Design Your <span className="text-krutNeon">Ideas</span>
+              <h1 className="text-white sm:text-5xl md:text-6xl text-4xl lg:text-7xl  xl:text-8xl font-bold">
+                AI <span className="text-krutNeon">Co-pilot</span> for
               </h1>
-              <h1 className="text-white sm:text-5xl md:text-6xl text-4xl lg:text-7xl xl:text-8xl 2xl:text-[9rem] font-bold">
-                Into <span className="text-krutNeon">Visuals</span>
+              <h1 className="text-white sm:text-5xl md:text-6xl text-4xl lg:text-7xl xl:text-8xl font-bold">
+                <span className="text-krutNeon">E-commerce</span> Brands
               </h1>
             </div>
 
             <div className="mt-10 lg:mt-4 2xl:mt-6 xl:mt-5 leading-normal">
               <h2 className="hidden md:block text-white text-center  2xl:text-3xl mx-auto lg:text-lg xl:text-xl">
-                An AI Platform that integrates products to generate high-quality custom brand images
+                An AI Platform that generates high-quality custom content creation for e-commerce
               </h2>
               <h2 className="hidden md:block text-white text-center 2xl:text-3xl xl:text-xl mx-auto">
-                without being an expert prompter.
+                brands without being an expert prompter.
               </h2>
 
               <h2 className="md:hidden text-white text-center  2xl:text-3xl mx-4 lg:text-lg xl:text-xl">
-                An AI Platform that integrates products to generate high-quality custom brand images without being an expert prompter.
+                An AI Platform that generates high-quality custom content creation for e-commerce brands without being an expert prompter.
               </h2>
               {/* <p className="md:hidden text-white text-center 2xl:text-3xl xl:text-xl mx-auto">click of a button</p> */}
 
-              <ul className="hidden md:flex list-disc text-white  lg:gap-10 gap-5 justify-center items-center mt-5 lg:mt-3 xl:mt-4 2xl:mt-5 text-xs lg:text-sm xl:text-lg 2xl:text-2xl mx-auto">
+              <ul className="hidden md:flex list-disc text-white font-bold lg:gap-10 gap-5 justify-center items-center mt-5 lg:mt-3 xl:mt-4 2xl:mt-5 text-xs lg:text-sm xl:text-lg 2xl:text-2xl mx-auto">
+                <li>Time-Efficient</li>
                 <li>Cost-saving</li>
                 <li>Increased Efficiency</li>
-                <li>Higher Accuracy</li>
-                <li>Time-Efficient</li>
+                {/* <li>Higher Accuracy</li> */}
               </ul>
             </div>
 
@@ -93,31 +97,41 @@ const Home = () => {
 
       <div
         className=" min-h-[8rem]  lg:min-h-screen bg-cover bg-no-repeat bg-center">
-        <div className="lg:min-h-screen  min-h-[8rem] bg-black bg-opacity-95 py-16 flex flex-col justify-center ">
+        <div className="lg:min-h-screen  min-h-[8rem] bg-black bg-opacity-95 pt-16 flex flex-col justify-center ">
           <div className="border border-krutNeon  min-h-[10rem] md:min-h-[20rem] 2xl:min-h-[25rem] text-white rounded-[43px] mx-4 md:mx-16 lg:mx-20 xl:mx-[17rem] flex flex-col  justify-center items-center">
             <h1 className="text-center font-bold text-3xl md:text-5xl lg:text-6xl">
               Our Trusted Partners
             </h1>
-            <div className="flex gap-5 mt-4 md:gap-8 lg:gap-10 md:mt-8 items-center justify-center">
+            <div className="flex flex-wrap space-x-3 md:space-x-5 space-y-2 md:space-y-4 md:mt-8 items-center justify-center max-w-[80%]">
               <img
-                className="w-12 h-6 md:w-20 md:h-12 lg:w-24 lg:h-14 2xl:w-36 2xl:h-20"
+                className="h-4 md:h-8 lg:h-14 max-h-[40px] mt-2 ms-5"
                 src={github}
-                alt=""
+                alt="github"
               />
               <img
-                className="w-10 h-5 md:w-16 md:h-10 lg:w-20 lg:h-12 2xl:w-28 2xl:h-16"
-                src={aws}
-                alt=""
-              />
-              <img
-                className="w-20 h-4 md:w-36 md:h-10 lg:w-38 xl:w-48 lg:h-10 2xl:w-60 2xl:h-12"
+                className="h-4 md:h-8 lg:h-14 max-h-[40px]"
                 src={shellcode}
-                alt=""
+                alt="shellcode"
               />
               <img
-                className="w-18 h-5 md:w-32 md:h-8 lg:w-36 lg:h-10 2xl:w-52 2xl:h-14"
+                className="h-4 md:h-8 lg:h-14 max-h-[40px]"
+                src={aws}
+                alt="aws"
+              />
+              <img
+                className="h-4 md:h-8 lg:h-14 max-h-[40px]"
                 src={mongodb}
-                alt=""
+                alt="mongodb"
+              />
+              {/* <img
+                className="h-4 md:h-8 lg:h-14 max-h-[40px]"
+                src={partners}
+                alt="partners"
+              /> */}
+              <img
+                className="h-4 md:h-8 lg:h-14 max-h-[45px]"
+                src={nvidia}
+                alt="nvidia"
               />
             </div>
           </div>
