@@ -4,7 +4,7 @@ export const faqData = {
   mainImage: "https://via.placeholder.com/606x614",
   faqs: [
     {
-      question: "What is the best free AI art generator?",
+      question: "Which is the best free AI art generator?",
       answer:
         "There are many free image generators available online like <a target='_blank' class='underline underline-offset-4 decoration-1' href='https://openai.com/dall-e-3'>Dall-E 3</a>, <a target='_blank' class='underline underline-offset-4 decoration-1' href='https://designer.microsoft.com/'>Microsoft Designer</a>, <a target='_blank' class='underline underline-offset-4 decoration-1' href='https://beta.dreamstudio.ai/generate'>Dream Studio</a>, etc but one that stands out is our art generator: <a class='underline underline-offset-4 decoration-1' href='/'>Krut.AI</a>",
     },

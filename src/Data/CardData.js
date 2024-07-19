@@ -37,7 +37,7 @@ const cardData = [
     link: "/tools?tool=Model%20Studio",
   },
   {
-    title: "Background remover",
+    title: "Background Remover",
     description: "Instantly remove background with AI precision in seconds with automatic image recognition",
     gif: BgRemove,
     thumbnail: BrRemovetn,
