@@ -219,25 +219,14 @@ const Header = () => {
 
           <div className="md:flex md:items-center md:space-x-5 hidden">
 
-            <Link to="/bookademo"
-              className="hidden md:block rounded-full text-black font-bold md:text-sm lg:text-lg 2xl:text-xl px-3 py-1"
-              style={{
-                background:
-                  "linear-gradient(180deg, #FFFFFF -225.69%, #01DDE9 35.95%, #37003E 141.48%)",
-              }}>
+            <div onClick={() => Navigate('/bookademo')} className="hidden md:block rounded-full font-bold md:text-sm lg:text-lg 2xl:text-xl px-4 py-1
+            text-white border border-krutNeon zoomEffect cursor-pointer hover:bg-krutNeon hover:text-black">
               Book a Demo
-            </Link>
+            </div>
 
-            <div className="hidden md:block">
-              <div className="flex text-white items-center">
-                <div className="hover:text-krutNeon  md:text-sm lg:text-lg 2xl:text-xl cursor-pointer" onClick={() => window.location.href = APP_LINK + "login"}>
-                  <span>Login </span>
-                </div>
-                <p className="mx-1"> | </p>
-                <div className="hover:text-krutNeon  md:text-sm lg:text-lg 2xl:text-xl cursor-pointer" onClick={() => window.location.href = APP_LINK + "signup"}>
-                  <span> Signup</span>
-                </div>
-              </div>
+            <div className="hidden md:block rounded-full font-bold md:text-sm lg:text-lg 2xl:text-xl px-4 py-1
+            text-white border border-krutNeon zoomEffect cursor-pointer hover:bg-krutNeon hover:text-black" onClick={() => window.location.href = APP_LINK + "login"}>
+              Get Started
             </div>
 
           </div>

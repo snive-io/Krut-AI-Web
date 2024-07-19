@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom'
 import { subscribeAPI } from '../../utils/APIservice';
 import toast from 'react-hot-toast';
 import cardData from '../../Data/CardData';
+import { APP_LINK } from '../../utils/links';
 
 function Footer() {
     const Navigate = useNavigate();
@@ -40,7 +41,7 @@ function Footer() {
         <>
             <div className="flex flex-col mt-10">
 
-                <div className="m-5">
+                <div className="m-5 xl:mx-10">
                     <div className="flex flex-col lg:flex-row justify-center md:justify-between">
 
                         <div className="m-3 w-[90%] lg:max-w-[40%] xl:max-w-2xl text-white">
@@ -70,13 +71,12 @@ function Footer() {
                             <div className='px-3 sm:px-6'>
                                 <h3 className="text-lg sm:text-xl font-semibold  mt-4 mb-2">Company</h3>
                                 <ul className='text-sm sm:text-lg font-thin'>
-                                    <li className='cursor-pointer'> <a href="https://discord.gg/vf2jJxEVn7" target='_blank'>Community</a></li>
+                                    {/* <li className='cursor-pointer'> <a href="https://discord.gg/vf2jJxEVn7" target='_blank'>Community</a></li> */}
                                     <li className='cursor-pointer' onClick={() => Navigate('/blogs')}>Blogs</li>
-
                                     <li className='cursor-pointer'> <a href="https://krut-ai.notion.site/Krut-AI-MVP-User-Manual-b2d5df9733cd411e99b4e92a68c7c154" target='_blank'>Tutorials</a></li>
                                     <li className='cursor-pointer' onClick={() => Navigate('/pricing')}>Pricing</li>
                                     <li className='cursor-pointer' onClick={() => Navigate('/contact')}>Contact Us</li>
-                                    <li className='cursor-pointer' onClick={() => Navigate('/bookademo')}>Book a Demo</li>
+                                    <li className='cursor-pointer' onClick={() => window.location.href = APP_LINK + "login"}>Get Started</li>
                                     {/* <li>Legal</li> */}
                                     {/* <li className='hidden lg:block'>Pricing</li>
                                     <li className='hidden lg:block'>Contact Us</li>
