@@ -54,7 +54,7 @@ const Blogs = () => {
               </h1>
               <button className="border lg:border-2  border-krutNeon text-white text-[10px] sm:text-sm lg:text-lg 2xl:text-2xl rounded-lg lg:rounded-full px-2 lg:px-8 lg:font-medium py-1  mt-2"
                 onClick={() =>
-                  window.location.href = `/blog?id=${blogs.length}`
+                  window.location.href = `/blog?blogtitle=${encodeURIComponent(blogs[0].title)}&id=${blogs?.length}`
                 }>
                 Read more
               </button>
