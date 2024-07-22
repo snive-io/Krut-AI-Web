@@ -15,12 +15,18 @@ const Blog = () => {
     const Navigate = useNavigate();
 
     useEffect(() => {
-        // console.log(currentURL)
-        if (!window.location.search?.length) return;
-        const id = window.location.search.split('=')[1] - 1;
-        if (id >= 0 && id < BlogsData?.length) setBlogData(BlogsData[id]);
-        setCurrentURL(window.location.href)
-    }, [location, currentURL]);
+        const urlParams = new URLSearchParams(window.location.search);
+        const id = urlParams.get('id') - 1;
+
+        if (id >= 0 && id < BlogsData?.length) {
+            setBlogData(BlogsData[id]);
+        } else {
+            console.error("Invalid id");
+            Navigate('/blogs');
+        }
+        setCurrentURL(window.location.href);
+    }, [location]);
+
 
 
     return (

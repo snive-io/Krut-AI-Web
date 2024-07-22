@@ -15,7 +15,7 @@ export const BlogsData = [
         <p>&nbsp;</p>
         <h3 style="font-size: 1.25rem; padding: 10px 0px; font-weight:500"><span>THe Explosion Of AI Tools&nbsp;</span></h3>
         <p>&nbsp;</p>
-        <p><span>As AI has become more advanced, creative tools like Krut AI have emerged that can generate unique images with the click of a button. It seems like every day, a new AI is developed that can produce art, much, poetry - you name it. SOme of these AI creations are pretty impressive and even beautiful. But can AI ever truly be creative?&nbsp;</span></p>
+        <p><span>As AI has become more advanced, creative tools like <a target='_blank' class='underline underline-offset-4 decoration-1' href='https://www.krut.ai/'>Krut AI</a> have emerged that can generate unique images with the click of a button. It seems like every day, a new AI is developed that can produce art, much, poetry - you name it. SOme of these AI creations are pretty impressive and even beautiful. But can AI ever truly be creative?&nbsp;</span></p>
         <p>&nbsp;</p>
         <h3 style="font-size: 1.25rem; padding: 10px 0px; font-weight:500"><span>AI&rsquo;s Limitations</span></h3>
         <p>&nbsp;</p>
@@ -357,6 +357,442 @@ export const BlogsData = [
         <h2 style="font-size: 0.5rem; padding: 10px 0px; font-weight:600" > &nbsp;</h2>
 
         <p><span>Together, let's redefine what's possible in e-commerce with Krut AI.</span></p>
+        `
+    },
+    {
+        id: 6,
+        genre: "Technology",
+        title: "How Does Krut AI Help E-commerce Brands?",
+        profilePic: "/blogs/harsh.webp",
+        author: "Harsh Gupta",
+        date: "July 21, 2024",
+
+        titleImg: "/blogs/6.webp",
+
+        titleIntro: "In a highly competitive e-commerce space, where creating content is still tough using different AI tools, that leads to a loss in ROI, reduced productivity, and a lot of time consumption because 85% of the creators still have no prompt writing skills. That’s where Krut AI emerges as an AI co-pilot for e-commerce brands that generate high-quality custom content creation without being an expert prompter by offering time efficiency, cost-saving, and increased efficiency.",
+
+        blogContent: ` 
+        <h2 style="font-size: 2rem; padding: 10px 0px; font-weight:600" class='text-start'> <span>1. The E-commerce Challenge:</span></h2>
+
+
+                        <p><span>Today's e-commerce businesses face a multitude of challenges in creating compelling content due to:</span></p>
+
+                        <ul>
+                            <li class='flex mt-2'> • <p class='ps-2'><strong>Scale and Speed: </strong><span style="font-weight: 400;">The need to produce high-quality image, text, or video content for vast product catalogs is slow, because of the necessity to switch between different tools, slowing down the overall process.</span></p></li>
+                            <li class='flex mt-2'> • <p class='ps-2'><strong>Cost:</strong><span style="font-weight: 400;"> Traditional photoshoots and content creation are expensive and time-consuming, especially for smaller businesses or those with large product lines.</span></p></li>
+                            <li class='flex mt-2'> • <p class='ps-2'><strong>Personalization:</strong><span style="font-weight: 400;"> Tailoring content to different market styles and individual preferences requires significant effort and resources.</span></p></li>
+                            <li class='flex mt-2'> • <p class='ps-2'><strong>Multi-channel Presence:</strong><span style="font-weight: 400;"> Creating content suitable for various platforms (website, social media, marketplaces).</span></p></li>
+                            <li class='flex mt-2'> • <p class='ps-2'><strong>Realism:</strong><span style="font-weight: 400;"> Ensuring model and product images are lifelike and accurately represent hyper-detailed realisticness.</span></p></li>
+                            <li class='flex mt-2'> • <p class='ps-2'><strong>Product Description:</strong><span style="font-weight: 400;"> Generating engaging content and SEO-friendly keywords at scale is a time-consuming process that requires both creativity and technical knowledge.</span></p></li>
+                            <li class='flex mt-2'> • <p class='ps-2'><strong>Vendor Outsourcing:</strong><span style="font-weight: 400;"> Outsourcing product listing to different vendors, but not receiving the right value due to lack of brand trust building.</span></p></li>
+                            <li class='flex mt-2'> • <p class='ps-2'><strong>Customer Experience:</strong><span style="font-weight: 400;"> Providing immersive shopping experiences like real-time virtual try-ons.</span></p></li>
+                        </ul>
+
+                        <h2 style="font-size: 2rem; padding: 10px 0px; font-weight:600" > &nbsp;</h2>
+                        <h2 style="font-size: 2rem; padding: 10px 0px; font-weight:600" class='text-start'> <span>2. <a target='_blank' class='underline underline-offset-4 decoration-1' href='https://www.krut.ai/'>Krut AI</a>: A Comprehensive Solution:</span></h2>
+                        <p><span>Krut AI comes with a holistic solution to these challenges, offering a SaaS of AI-powered tools specifically designed for e-commerce needs. By leveraging advanced machine learning, LLMs, LORAs, and stable diffusion, Krut AI provides a one-step solution for custom content creation and management.</span></p>
+
+                        <h2 style="font-size: 2rem; padding: 10px 0px; font-weight:600" > &nbsp;</h2>
+                        <h2 style="font-size: 2rem; padding: 10px 0px; font-weight:600" class='text-start'> <span>3. Key Features:</span></h2>
+                        <p><span>Krut AI comes with a holistic solution to these challenges, offering a SaaS of AI-powered tools specifically designed for e-commerce needs. By leveraging advanced machine learning, LLMs, LORAs, and stable diffusion, Krut AI provides a one-step solution for custom content creation and management.</span></p>
+                        <h2 style="font-size: 0.5rem; padding: 10px 0px; font-weight:600" > &nbsp;</h2>
+
+                        <div class="ms-5">
+                            <h3 style="font-size: 1.25rem; padding: 10px 0px; font-weight:500"><span>3.1 Hyper-Realistic Image Generation</span></h3>
+                            <div class="ms-5">
+                                <h3 style="font-size: 1.1rem; padding: 10px 0px; font-weight:500"><span>Capabilities:</span></h3>
+                                <ul>
+                                    <li class='flex'> • <p class='ps-2'><span style="font-weight: 400;">Creates photorealistic <a target='_blank' class='underline underline-offset-4 decoration-1' href='https://www.krut.ai/tools?tool=Product%20Studio'>Product</a> and <a target='_blank' class='underline underline-offset-4 decoration-1' href='https://www.krut.ai/tools?tool=Model%20Studio'>Model</a> images from a simple text prompt.</span></p></li>
+                                    <li class='flex'> • <p class='ps-2'><span style="font-weight: 400;">Generates diverse product environments and contexts.</span></p></li>
+                                    <li class='flex'> • <p class='ps-2'><span style="font-weight: 400;">Generate diverse models with different pose styles.</span></p></li>
+                                    <li class='flex'> • <p class='ps-2'><span style="font-weight: 400;">Accurately renders materials, textures, and lighting conditions.</span></p></li>
+                                </ul>
+
+                                <h3 style="font-size: 1.1rem; padding: 10px 0px; font-weight:500" class='mt-3'><span>Benefits:</span></h3>
+                                <ul>
+                                    <li class='flex'> • <p class='ps-2'><span style="font-weight: 400;">Eliminates the need for expensive photo shoots.</span></p></li>
+                                    <li class='flex'> • <p class='ps-2'><span style="font-weight: 400;">Enables rapid creation of seasonal or themed product and model imagery.</span></p></li>
+                                    <li class='flex'> • <p class='ps-2'><span style="font-weight: 400;">Ensures consistency across image generation lines.</span></p></li>
+                                </ul>
+                            </div>
+
+                            <div class="flex justify-evenly">
+                                <img class="w-[45%] object-cover my-8" src="/blogs/6_1.webp" alt="Image Generation Product" />
+                                <img class="w-[45%] object-cover my-8" src="/blogs/6_2.webp" alt="Model Generation" />
+                            </div>
+
+                            <div class="flex justify-center">
+                                <img class="w-[90%] object-cover my-8" src="/blogs/6_3.webp" alt="Image Generation product with model" />
+                            </div>
+
+
+                            <h3 style="font-size: 1.25rem; padding: 10px 0px; font-weight:500"><span>3.2 Intelligent Prompt Recommendations</span></h3>
+                            <div class="ms-5">
+                                <h3 style="font-size: 1.1rem; padding: 10px 0px; font-weight:500"><span>Features:</span></h3>
+                                <ul>
+                                    <li class='flex'> • <p class='ps-2'><span style="font-weight: 400;">Suggests improvements to user prompts for better results.</span></p></li>
+                                    <li class='flex'> • <p class='ps-2'><span style="font-weight: 400;">Offers style and composition recommendations.</span></p></li>
+                                    <li class='flex'> • <p class='ps-2'><span style="font-weight: 400;">Learns from user preferences over time.</span></p></li>
+                                </ul>
+
+                                <h3 style="font-size: 1.1rem; padding: 10px 0px; font-weight:500" class='mt-3'><span>Advantages:</span></h3>
+                                <ul>
+                                    <li class='flex'> • <p class='ps-2'><span style="font-weight: 400;">Makes high-quality image generation accessible to non-expert prompters.</span></p></li>
+                                    <li class='flex'> • <p class='ps-2'><span style="font-weight: 400;">Reduces the learning curve for new users.</span></p></li>
+                                    <li class='flex'> • <p class='ps-2'><span style="font-weight: 400;">Improves overall efficiency of the image creation process.</span></p></li>
+                                </ul>
+                            </div>
+
+                            <div class="flex justify-center">
+                                <img class="w-[90%] object-cover my-8" src="/blogs/6_4.webp" alt="Prompt Recommendations" />
+                            </div>
+
+
+                            <h3 style="font-size: 1.25rem; padding: 10px 0px; font-weight:500"><span>3.3 AI Editing Tools</span></h3>
+                            <div class="ms-5">
+                                <h3 style="font-size: 1.1rem; padding: 10px 0px; font-weight:500"><span>Suite Components:</span></h3>
+                                <ul>
+                                    <li class='flex'> • <p class='ps-2'><span style="font-weight: 400;"><a target='_blank' class='underline underline-offset-4 decoration-1' href='https://www.krut.ai/tools?tool=Background%20Remover'>Background removal</a> and <a target='_blank' class='underline underline-offset-4 decoration-1' href='https://www.krut.ai/tools?tool=Magic%20Replace'>replacement</a>.</span></p></li>
+                                    <li class='flex'> • <p class='ps-2'><span style="font-weight: 400;">Color correction and enhancement.</span></p></li>
+                                    <li class='flex'> • <p class='ps-2'><span style="font-weight: 400;">Object manipulation and resizing.</span></p></li>
+                                    <li class='flex'> • <p class='ps-2'><span style="font-weight: 400;">Texture and material adjustments.</span></p></li>
+                                </ul>
+
+                                <h3 style="font-size: 1.1rem; padding: 10px 0px; font-weight:500" class='mt-3'><span>Use Cases:</span></h3>
+                                <ul>
+                                    <li class='flex'> • <p class='ps-2'><span style="font-weight: 400;">Customizing product images for different markets.</span></p></li>
+                                    <li class='flex'> • <p class='ps-2'><span style="font-weight: 400;">Creating lifestyle shots from studio images.</span></p></li>
+                                    <li class='flex'> • <p class='ps-2'><span style="font-weight: 400;">Preparing images for various marketing channels.</span></p></li>
+                                </ul>
+                            </div>
+
+                            <div class="flex justify-center">
+                                <img class="w-[90%] object-cover my-8" src="/blogs/6_5.webp" alt="Krut AI Editing Tools" />
+                            </div>
+
+
+                            <h3 style="font-size: 1.25rem; padding: 10px 0px; font-weight:500"><span>3.4 <a target='_blank' class='underline underline-offset-4 decoration-1' href='https://app.krut.ai/adCreative'>Comprehensive Content Generation</a></span></h3>
+                            <div class="ms-5">
+                                <h3 style="font-size: 1.1rem; padding: 10px 0px; font-weight:500"><span>Capabilities:</span></h3>
+                                <ul>
+                                    <li class='flex'> • <p class='ps-2'><span style="font-weight: 400;">Product descriptions optimized for SEO.</span></p></li>
+                                    <li class='flex'> • <p class='ps-2'><span style="font-weight: 400;">Engaging social media captions and hashtags.</span></p></li>
+                                    <li class='flex'> • <p class='ps-2'><span style="font-weight: 400;">Keyword generation for improved searchability.</span></p></li>
+                                    <li class='flex'> • <p class='ps-2'><span style="font-weight: 400;">Complete A+ content for marketplace listings.</span></p></li>
+                                </ul>
+
+                                <h3 style="font-size: 1.1rem; padding: 10px 0px; font-weight:500" class='mt-3'><span>Technology:</span></h3>
+                                <ul>
+                                    <li class='flex'> • <p class='ps-2'><span style="font-weight: 400;">Utilizes advanced Language Models (LLMs) trained on e-commerce-specific data.</span></p></li>
+                                </ul>
+
+                                <h3 style="font-size: 1.1rem; padding: 10px 0px; font-weight:500" class='mt-3'><span>Benefits:</span></h3>
+                                <ul>
+                                    <li class='flex'> • <p class='ps-2'><span style="font-weight: 400;">Ensures consistency in brand voice across all content.</span></p></li>
+                                    <li class='flex'> • <p class='ps-2'><span style="font-weight: 400;">Dramatically reduces time spent on content creation.</span></p></li>
+                                    <li class='flex'> • <p class='ps-2'><span style="font-weight: 400;">Improves product discoverability and conversion rates.</span></p></li>
+                                </ul>
+                            </div>
+
+                            <div class="flex justify-center">
+                                <img class="w-[90%] object-cover my-8" src="/blogs/6_6.webp" alt="Krut AI Content Generation" />
+                            </div>
+
+                            <h3 style="font-size: 1.25rem; padding: 10px 0px; font-weight:500"><span>3.5 Multi-lingual AI Assistant</span></h3>
+                            <div class="ms-5">
+                                <h3 style="font-size: 1.1rem; padding: 10px 0px; font-weight:500"><span>Features:</span></h3>
+                                <ul>
+                                    <li class='flex'> • <p class='ps-2'><span style="font-weight: 400;">24/7 availability for user support.</span></p></li>
+                                    <li class='flex'> • <p class='ps-2'><span style="font-weight: 400;">Comprehensive tutorial and guidance system.</span></p></li>
+                                    <li class='flex'> • <p class='ps-2'><span style="font-weight: 400;">Supports multiple languages for global accessibility.</span></p></li>
+                                </ul>
+
+                                <h3 style="font-size: 1.1rem; padding: 10px 0px; font-weight:500" class='mt-3'><span>Advantages:</span></h3>
+                                <ul>
+                                    <li class='flex'> • <p class='ps-2'><span style="font-weight: 400;">Reduces dependency on human customer support.</span></p></li>
+                                    <li class='flex'> • <p class='ps-2'><span style="font-weight: 400;">Enables users to troubleshoot issues and learn new features independently.</span></p></li>
+                                    <li class='flex'> • <p class='ps-2'><span style="font-weight: 400;">Facilitates global adoption of the platform.</span></p></li>
+                                </ul>
+                            </div>
+
+                            <br />
+                            <h3 style="font-size: 1.25rem; padding: 10px 0px; font-weight:500"><span>3.6 <a target='_blank' class='underline underline-offset-4 decoration-1' href='https://www.krut.ai/tools?tool=Virtual%20Try-On'>Virtual Try-On</a></span></h3>
+                            <div class="ms-5">
+                                <h3 style="font-size: 1.1rem; padding: 10px 0px; font-weight:500"><span>Applications:</span></h3>
+                                <ul>
+                                    <li class='flex'> • <p class='ps-2'><span style="font-weight: 400;">Allows customers to virtually "try on" clothing, accessories, or cosmetics.</span></p></li>
+                                    <li class='flex'> • <p class='ps-2'><span style="font-weight: 400;">Creates interactive 3D models of products for 360-degree viewing.</span></p></li>
+                                </ul>
+
+                                <h3 style="font-size: 1.1rem; padding: 10px 0px; font-weight:500" class='mt-3'><span>Impact:</span></h3>
+                                <ul>
+                                    <li class='flex'> • <p class='ps-2'><span style="font-weight: 400;">Enhances customer confidence in online purchases.</span></p></li>
+                                    <li class='flex'> • <p class='ps-2'><span style="font-weight: 400;">Reduces return rates by setting accurate expectations.</span></p></li>
+                                    <li class='flex'> • <p class='ps-2'><span style="font-weight: 400;">Provides a unique, engaging shopping experience.</span></p></li>
+                                </ul>
+                            </div>
+
+                            <div class="flex justify-center">
+                                <img class="w-[90%] object-cover my-8" src="/blogs/6_7.webp" alt="Krut AI Virtual Try-On" />
+                            </div>
+                        </div>
+
+
+                        <br />
+                        <h2 class="" style="font-size: 2rem; padding: 10px 0px; font-weight:600" class='text-start'> <span>4. <a target='_blank' class='underline underline-offset-4 decoration-1' href='https://slashdot.org/software/p/Krut-AI/alternatives'>Competitive Analysis:</a></span></h2>
+                        <div class="ms-5">
+
+                            <div class="flex justify-center">
+                                <img class="w-[90%] object-cover my-8" src="/blogs/6_8.webp" alt="Krut AI Competitive Analysis" />
+                            </div>
+
+                            <h3 claass="mt-4" style="font-size: 1.25rem; padding: 10px 0px; font-weight:500"><span>4.1 Krut AI vs. General-Purpose AI Tools (Midjourney, DALL•E 3)</span></h3>
+                            <div class="ms-5">
+
+                                <ul>
+                                    <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;">Specialization: Krut AI is tailored for e-commerce, unlike general AI image generators.</span></p></li>
+                                    <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;">Output Quality: Produces hyper-detailed images optimized for products and models showcases and marketing materials.</span></p></li>
+                                    <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;">Ease of Use: Offers industry-specific prompts and editing tools, reducing the learning curve.</span></p></li>
+                                </ul>
+
+                            </div>
+
+                            <h3 class="mt-4" style="font-size: 1.25rem; padding: 10px 0px; font-weight:500"><span>4.2 Krut AI vs. Traditional Design Tools (Canva, Adobe Firefly)</span></h3>
+                            <div class="ms-5">
+                                <ul>
+                                    <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;">AI Integration: Deeper AI capabilities for automated content creation.</span></p></li>
+                                    <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;">E-commerce Focus: Built-in features specifically for product visualization and description.</span></p></li>
+                                    <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;">Scalability: Better suited for bulk content creation needs of e-commerce businesses.</span></p></li>
+                                </ul>
+                            </div>
+
+                            <h3 class="mt-4" style="font-size: 1.25rem; padding: 10px 0px; font-weight:500"><span>4.3 Krut AI vs. E-commerce-Focused Competitors (AdCreative AI, NeuroPixel.AI)</span></h3>
+                            <div class="ms-5">
+                                <ul>
+                                    <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;">Comprehensiveness: Offers a wider range of tools from image generation to virtual try-ons.</span></p></li>
+                                    <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;">Content Synergy: Unique ability to generate matching textual content for images.</span></p></li>
+                                    <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;">Advanced AI: Employs more sophisticated AI models for higher quality and realism.</span></p></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h2 class="mt-10" style="font-size: 2rem; padding: 10px 0px; font-weight:600" class='text-start'> <span>5. <a target='_blank' class='underline underline-offset-4 decoration-1' href='https://www.krut.ai/blog?id=5'>Target Market and Ideal Customers:</a></span></h2>
+
+                    <div class="ms-5">
+                        <h3 class="mt-4" style="font-size: 1.25rem; padding: 10px 0px; font-weight:500"><span>5.1 Primary Target Segments</span></h3>
+                        <div class="ms-5">
+                            <ul>
+                                <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;"><strong>E-commerce Platforms:</strong> Large-scale online marketplaces needing consistent, high-quality product imagery and descriptions for millions of items.</span></p></li>
+                                <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;"><strong>Large Retailers:</strong> Multi-brand stores requiring diverse visual content for omnichannel marketing.</span></p></li>
+                                <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;"><strong>Direct-to-Consumer (D2C) Brands:</strong> Emerging brands needing professional-quality content on limited budgets.</span></p></li>
+                            </ul>
+                        </div>
+
+                        <h3 class="mt-4" style="font-size: 1.25rem; padding: 10px 0px; font-weight:500"><span>5.2 Industry-Specific Applications</span></h3>
+                        <div class="ms-5">
+                            <ul>
+                                <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;"><strong>Fashion and Apparel:</strong> Virtual try-ons, seasonal collection visualizations.</span></p></li>
+                                <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;"><strong>Jewelry and Accessories:</strong> Detailed, high-resolution product imagery.</span></p></li>
+                                <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;"><strong>Home Decor:</strong> Room visualizations with products in context.</span></p></li>
+                                <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;"><strong>Electronics:</strong> 360-degree product views and feature highlighting.</span></p></li>
+                                <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;"><strong>Beauty and Cosmetics:</strong> Product Ad generation with modeling holding it or just model or product ad creation.</span></p></li>
+                            </ul>
+                        </div>
+
+                        <h3 class="mt-4" style="font-size: 1.25rem; padding: 10px 0px; font-weight:500"><span>5.3 Ideal Customer Profiles</span></h3>
+                        <div class="ms-5">
+                            <ul>
+                                <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;">Fast-growing D2C brands looking to scale their product lines quickly.</span></p></li>
+                                <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;">Established retailers transitioning to a stronger online presence.</span></p></li>
+                                <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;">E-commerce marketplaces need to standardize seller content.</span></p></li>
+                                <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;">Digital marketing agencies specializing in e-commerce clients.</span></p></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <h2 class="mt-10" style="font-size: 2rem; padding: 10px 0px; font-weight:600" class='text-start'> <span>6. Integration Capabilities:</span></h2>
+
+                    <div class="ms-5">
+                        <h3 class="mt-4" style="font-size: 1.25rem; padding: 10px 0px; font-weight:500"><span>6.1 API First Approach</span></h3>
+                        <div class="ms-5">
+                            <ul>
+                                <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;">RESTful APIs for seamless integration with existing e-commerce platforms.</span></p></li>
+                                <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;">Webhook support for real-time updates and notifications.</span></p></li>
+                            </ul>
+                        </div>
+
+                        <h3 class="mt-4" style="font-size: 1.25rem; padding: 10px 0px; font-weight:500"><span>6.2 Platform Integration</span></h3>
+                        <div class="ms-5">
+                            <ul>
+                                <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;">Native plugins for major e-commerce platforms (Shopify, WooCommerce, Magento, Zunderdog).</span></p></li>
+                                <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;">Integration with popular CMS systems (WordPress, Drupal).</span></p></li>
+                                <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;">Connects with social media management and marketplace tools for direct content publishing.</span></p></li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <h2 class="mt-10" style="font-size: 2rem; padding: 10px 0px; font-weight:600" class='text-start'> <span>7. <a target='_blank' class='underline underline-offset-4 decoration-1' href='https://www.krut.ai/pricing'>Pricing Strategy:</a></span></h2>
+
+                    <div class="ms-5">
+                        <h3 class="mt-4" style="font-size: 1.25rem; padding: 10px 0px; font-weight:500"><span>7.1 Tiered Pricing Model</span></h3>
+                        <div class="ms-5">
+                            <ul>
+                                <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;"><strong>Free Trial: 100 credits</strong> to explore and test the platform.</span></p></li>
+                                <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;"><strong>Plus Trial: $25/month </strong>for 1 user, suitable for small businesses or individual creators.</span></p></li>
+                                <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;"><strong>Pro Trial: $62/month</strong> for 1 user, offering advanced features for growing businesses.</span></p></li>
+                                <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;"><strong>Enterprise Plans: </strong>Custom pricing for 10+ users, tailored to specific business needs.</span></p></li>
+                            </ul>
+                        </div>
+
+                        <h3 class="mt-4" style="font-size: 1.25rem; padding: 10px 0px; font-weight:500"><span>7.2 Pricing Philosophy</span></h3>
+                        <div class="ms-5">
+                            <ul>
+                                <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;">Designed to be accessible for businesses of all sizes.</span></p></li>
+                                <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;">Scalable model that grows with the customer's needs.</span></p></li>
+                                <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;">Value-based pricing reflects the potential ROI for businesses.</span></p></li>
+                            </ul>
+                        </div>
+
+                        <h3 class="mt-4" style="font-size: 1.25rem; padding: 10px 0px; font-weight:500"><span>7.3 Special Offers</span></h3>
+                        <div class="ms-5">
+                            <ul>
+                                <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;">Discounts for annual subscriptions.</span></p></li>
+                                <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;">Educational and non-profit organization discounts.</span></p></li>
+                                <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;">Referral programs for existing customers.</span></p></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <h2 class="mt-10" style="font-size: 2rem; padding: 10px 0px; font-weight:600" class='text-start'> <span>8. <a target='_blank' class='underline underline-offset-4 decoration-1' href='https://www.krut.ai/contact'>Customer Support and Onboarding:</a></span></h2>
+                    <div class="ms-5">
+                        <h3 class="mt-4" style="font-size: 1.25rem; padding: 10px 0px; font-weight:500"><span>8.1 AI-Powered Support</span></h3>
+                        <div class="ms-5">
+                            <ul>
+                                <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;">24/7 multilingual AI assistant for immediate query resolution.</span></p></li>
+                                <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;">Intelligent chatbot with deep integration into Krut AI's knowledge base.</span></p></li>
+                                <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;">User Manual is provided as a troubleshooting and guided problem-solving option.</span></p></li>
+                            </ul>
+                        </div>
+
+                        <h3 class="mt-4" style="font-size: 1.25rem; padding: 10px 0px; font-weight:500"><span>8.2 Human Support</span></h3>
+                        <div class="ms-5">
+                            <ul>
+                                <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;">Dedicated product managers for enterprise clients (10+ users).</span></p></li>
+                                <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;">Email and phone support for complex issues.</span></p></li>
+                                <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;">Regular check-ins and account reviews for high-tier customers.</span></p></li>
+                            </ul>
+                        </div>
+
+                        <h3 class="mt-4" style="font-size: 1.25rem; padding: 10px 0px; font-weight:500"><span>8.3 Onboarding and Training</span></h3>
+                        <div class="ms-5">
+                            <ul>
+                                <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;">Interactive tutorials and walkthrough demo guides.</span></p></li>
+                                <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;">Webinars and live training sessions for new features.</span></p></li>
+                                <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;">Comprehensive documentation and knowledge base.</span></p></li>
+                                <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;">Discord Community forums for peer-to-peer learning and support.</span></p></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <h2 class="mt-10" style="font-size: 2rem; padding: 10px 0px; font-weight:600" class='text-start'> <span>9. Success Stories and Case Studies:</span></h2>
+                    <div class="ms-5">
+                        <h3 class="mt-4" style="font-size: 1.25rem; padding: 10px 0px; font-weight:500"><span>9.1 Jewelry Brand Success</span></h3>
+                        <div class="ms-5">
+                            <h3 class="mt-4" style="font-size: 1.1rem; font-weight:500"><span><strong>Client: Luxury online jewelry retailer </strong></span></h3>
+
+                            <div class="flex justify-center">
+                                <img class="w-[90%] object-cover my-8" src="/blogs/6_9.webp" alt="Krut AI Jewelry Ad" />
+                            </div>
+
+                            <h3 style="font-size: 1.1rem; font-weight:500"><span><strong>Challenge:</strong> Needed to create consistent, high-quality images for 500+ products.</span></h3>
+                            <h3 style="font-size: 1.1rem; font-weight:500"><span><strong>Solution:</strong> Utilized Krut AI for bulk image generation and enhancement.</span></h3>
+
+
+                            <h3 class='mt-2' style="font-size: 1.1rem; padding: 10px 0px; font-weight:500"><span><strong>Results:</strong></span></h3>
+                            <div class="ms-5">
+                                <ul>
+                                    <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;">5x increase in product launch speed.</span></p></li>
+                                    <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;">30% increase in conversion rates due to improved imagery.</span></p></li>
+                                    <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;">50% reduction in product photography costs.</span></p></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <br />
+                        <h3 class="mt-4" style="font-size: 1.25rem; padding: 10px 0px; font-weight:500"><span>9.2 Cosmetics Company Transformation</span></h3>
+                        <div class="ms-5">
+                            <h3 class="mt-4" style="font-size: 1.1rem; font-weight:500"><span><strong>Client: D2C cosmetics brand</strong></span></h3>
+
+                            <div class="flex justify-center">
+                                <img class="w-[90%] object-cover my-8" src="/blogs/6_10.webp" alt="Krut AI Jewelry Ad" />
+                            </div>
+
+                            <h3 style="font-size: 1.1rem; font-weight:500"><span><strong>Challenge:</strong> Struggled with creating diverse model shots for different skin tones and types.</span></h3>
+                            <h3 style="font-size: 1.1rem; font-weight:500"><span><strong>Solution:</strong> Using Krut AI's image generation, and overall content collateral creation.</span></h3>
+
+                            <h3 class='mt-2' style="font-size: 1.1rem; padding: 10px 0px; font-weight:500"><span><strong>Result:</strong></span></h3>
+                            <div class="ms-5">
+                                <ul>
+                                    <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;">65% reduction in content creation time.</span></p></li>
+                                    <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;">40% increase in customer engagement with a virtual try-on feature.</span></p></li>
+                                    <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;">Expanded market reach to a diverse customer base.</span></p></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <br />
+                        <h3 class="mt-4" style="font-size: 1.25rem; padding: 10px 0px; font-weight:500"><span>9.3 Fashion Retailer Efficiency Increase</span></h3>
+                        <div class="ms-5">
+                            <h3 class="mt-4" style="font-size: 1.1rem; font-weight:500"><span><strong>Client: Multi-brand fashion e-commerce platform</strong></span></h3>
+
+                            <div class="flex justify-center">
+                                <img class="w-[90%] object-cover my-8" src="/blogs/6_11.webp" alt="Krut AI Jewelry Ad" />
+                            </div>
+
+                            <h3 style="font-size: 1.1rem; font-weight:500"><span><strong>Challenge:</strong> Inconsistent product descriptions and images across different brands.</span></h3>
+                            <h3 style="font-size: 1.1rem; font-weight:500"><span><strong>Solution:</strong> Implemented Krut AI and Virtual Try-On (Beta Testing Phase) for standardized image editing and content generation.</span></h3>
+
+                            <h3 class='mt-2' style="font-size: 1.1rem; padding: 10px 0px; font-weight:500"><span><strong>Results:</strong></span></h3>
+                            <div class="ms-5">
+                                <ul>
+                                    <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;">70% improvement in overall content creation efficiency.</span></p></li>
+                                    <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;">Standardized look and feel across 50+ brands.</span></p></li>
+                                    <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;">25% increase in organic search traffic due to optimized product descriptions.</span></p></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <h2 class="mt-10" style="font-size: 2rem; padding: 10px 0px; font-weight:600" class='text-start'> <span>10. Future Roadmap:</span></h2>
+                        <div class="ms-5">
+
+                            <h3 class="mt-4" style="font-size: 1.25rem; padding: 10px 0px; font-weight:500"><span>10.1 Upcoming Features</span></h3>
+                            <div class="ms-5">
+                                <ul>
+                                    <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;">360-Degree View Generation: Create immersive, rotatable product views from single images.</span></p></li>
+                                    <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;">Video Generation: Produce short product videos and animations automatically.</span></p></li>
+                                    <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;">Animated Ad Creation: Design dynamic, eye-catching advertisements for various platforms.</span></p></li>
+                                </ul>
+                            </div>
+
+                            <h3 class="mt-4" style="font-size: 1.25rem; padding: 10px 0px; font-weight:500"><span>10.2 AI Advancements</span></h3>
+                            <div class="ms-5">
+                                <ul>
+                                    <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;">Integration of more advanced GAN (Generative Adversarial Network) models for ultra-realistic imagery.</span></p></li>
+                                    <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;">Enhanced natural language understanding for more nuanced content generation.</span></p></li>
+                                    <li class='flex ms-4'> • <p class='ps-2'><span style="font-weight: 400;">Improved personalization algorithms for tailored user experiences.</span></p></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <h2 class="mt-10" style="font-size: 2rem; padding: 10px 0px; font-weight:600" class='text-start'> <span>11. Conclusion:</span></h2>
+                        <div class="ms-5">
+                            <p><span> <strong>Krut AI</strong> stands with the new era in e-commerce content creation. By addressing unique challenges faced by e-commerce, retailers, and D2C brands. Krut AI offers an AI-driven solution that drives efficiency, quality, less time, less cost, and high scalability features without you being an expert prompter.</p>
+                            <p class='my-3'>The platform’s combination of hyper-realistic image generation, intelligent content creation, virtual try-on, multilingual AI assistant support, and cutting-edge technology tools for businesses looking to thrive in the highly competitive e-commerce landscape. <p />
+                                <p> For e-commerce brands looking to elevate their content creation, product listing easier, streamline their operations, get some ROI, staying ahead of the competition with a review <strong>“This is what I was looking for”</strong>. Krut AI is your co-pilot for unparalleled tools and capabilities. Our vision is to build not just the product, but a partnership in digital e-commerce success.</span></p><p />
+                        </div>
+                    </div>
         `
     },
 ]
