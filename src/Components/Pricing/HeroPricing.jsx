@@ -23,12 +23,10 @@ function HeroPricing({ isMonthly, setIsMonthly }) {
                 <div className="container w-[300px] lg:w-[400px]">
                     <div className="tabs">
                         <input className='py-3' type="radio" id="radio-1" name="tabs" checked={isMonthly} onChange={(e) => { setIsMonthly(e.target.checked) }} />
-                        <label className="tab h-10 sm:h-12 lg:text-xl" htmlFor="radio-1">Monthly
-                            <span className='ms-2 sm:text-base text-blue-800'><span className='font-normal px-0.5'>(</span>20% off<span className='font-normal px-0.5'>)</span></span>
-                        </label>
+                        <label className="tab h-10 sm:h-12 lg:text-xl" htmlFor="radio-1">Monthly</label>
                         <input className='py-3' type="radio" id="radio-2" name="tabs" checked={!isMonthly} onChange={(e) => { setIsMonthly(!e.target.checked) }} />
                         <label className="tab h-10 sm:h-12 lg:text-xl" htmlFor="radio-2">Yearly
-                            <span className='ms-2 sm:text-base text-blue-800'><span className='font-normal px-0.5'>(</span>30% off<span className='font-normal px-0.5'>)</span></span>
+                            <span className='ms-2 sm:text-base text-blue-800'><span className='font-normal px-0.5'>(</span>20% off<span className='font-normal px-0.5'>)</span></span>
                         </label>
                         <span className="glider h-10 sm:h-12"></span>
                     </div>

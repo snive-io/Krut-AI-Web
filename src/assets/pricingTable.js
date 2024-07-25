@@ -14,8 +14,8 @@ export const pricingTable = [
     {
         title: "Plus",
         description: "Meet your goals and accomplish more with Advanced AI features.",
-        priceMonthly: 20,
-        priceYearly: 18,
+        priceMonthly: 25,
+        priceYearly: 20,
         buttonText: "Get Plus",
         storage: 50,
         unsplash: "Unlimited",
@@ -26,8 +26,8 @@ export const pricingTable = [
     {
         title: "Pro",
         description: "Collaborate in teams of all sizes and scale your brand with better ROI.",
-        priceMonthly: 50,
-        priceYearly: 44,
+        priceMonthly: 62,
+        priceYearly: 50,
         buttonText: "Be a Pro",
         storage: 100,
         unsplash: "Unlimited",
